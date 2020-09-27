@@ -23,4 +23,5 @@ speech_tokens <- function(url){
     stringr::str_replace_all("\\[([^]]*)\\]", "") %>%
     tibble::as_tibble() %>%
     tidytext::unnest_tokens(word, value)
+
 }
