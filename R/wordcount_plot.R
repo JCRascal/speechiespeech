@@ -3,7 +3,7 @@
 #' The speech_tkn function receives as input a tidy tokenized tibble of text
 #' from a speech, counts the number of occurences of each word
 #'
-#' @param speech_tkn
+#' @param speech_tkn tokenized speech object input
 #'
 #' @return
 #' @export

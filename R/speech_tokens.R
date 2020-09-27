@@ -4,7 +4,7 @@
 #' to parse and tokenize the portion of the target url believed to contain the
 #' txt of a speech; returns a tibble containing each word in that speech
 #'
-#' @param url
+#' @param url target url containing speech to be parsed into tibble
 #'
 #' @return
 #' @export

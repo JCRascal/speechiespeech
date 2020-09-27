@@ -7,7 +7,7 @@
 wordcount_plot(speech_tkn)
 }
 \arguments{
-\item{speech_tkn}{}
+\item{speech_tkn}{tokenized speech object input}
 }
 \value{
 

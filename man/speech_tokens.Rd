@@ -7,7 +7,7 @@
 speech_tokens(url)
 }
 \arguments{
-\item{url}{}
+\item{url}{target url containing speech to be parsed into tibble}
 }
 \value{
 
