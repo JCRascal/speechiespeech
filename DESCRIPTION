@@ -22,4 +22,5 @@ Imports:
     rvest,
     stringr,
     tibble,
-    tidytext
+    tidytext,
+    stopwords

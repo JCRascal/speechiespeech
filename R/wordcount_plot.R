@@ -11,6 +11,7 @@
 #' @import ggplot2
 #' @import dplyr
 #' @examples
+#' wordcount_plot(speech_tokens("https://kinginstitute.stanford.edu/our-god-marching"))
 wordcount_plot <- function(speech_tkn){
 
   speech_tkn %>%

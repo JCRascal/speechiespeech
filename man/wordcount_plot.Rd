@@ -16,3 +16,6 @@ wordcount_plot(speech_tkn)
 The speech_tkn function receives as input a tidy tokenized tibble of text
 from a speech, counts the number of occurences of each word
 }
+\examples{
+wordcount_plot(speech_tokens("https://kinginstitute.stanford.edu/our-god-marching"))
+}

@@ -9,7 +9,7 @@
 #' @return
 #' @export
 #' @importFrom magrittr %>%
-#'
+#' @import stopwords
 #' @examples
 #' speech_tokens("https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom")
 #'
