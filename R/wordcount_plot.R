@@ -12,6 +12,7 @@
 #' @import dplyr
 #' @examples
 wordcount_plot <- function(speech_tkn){
+
   speech_tkn %>%
     count(word) %>%
     top_n(10) %>%

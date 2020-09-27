@@ -18,8 +18,8 @@ to parse and tokenize the portion of the target url believed to contain the
 txt of a speech; returns a tibble containing each word in that speech
 }
 \examples{
-dream <- speech_tokens("https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom")
+speech_tokens("https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom")
 
-dream
+
 
 }

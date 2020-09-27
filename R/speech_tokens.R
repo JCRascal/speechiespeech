@@ -11,17 +11,20 @@
 #' @importFrom magrittr %>%
 #'
 #' @examples
-#' dream <- speech_tokens("https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom")
+#' speech_tokens("https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom")
 #'
-#' dream
+#'
 #'
 speech_tokens <- function(url){
+  stp_wrds <- tidytext::get_stopwords()
+
   xml2::read_html(url) %>%
     rvest::html_nodes("#block-system-main p+ p") %>%
     rvest::html_text() %>%
     stringr::str_replace_all("\\(([^)]*)\\)", "") %>%
     stringr::str_replace_all("\\[([^]]*)\\]", "") %>%
     tibble::as_tibble() %>%
-    tidytext::unnest_tokens(word, value)
+    tidytext::unnest_tokens(word, value) %>%
+    dplyr::anti_join(stp_wrds)
 
 }
