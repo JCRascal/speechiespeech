@@ -17,5 +17,8 @@ The speech_tkn function receives as input a tidy tokenized tibble of text
 from a speech, counts the number of occurences of each word
 }
 \examples{
-wordcount_plot(speech_tokens("https://kinginstitute.stanford.edu/our-god-marching"))
+url <- "https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom"
+title <- "I Have a Dream"
+author <- "Dr. Martin Luther King, Jr."
+wordcount_plot(speech_tokens(url, title, author))
 }

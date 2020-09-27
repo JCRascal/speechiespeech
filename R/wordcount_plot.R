@@ -11,11 +11,14 @@
 #' @import ggplot2
 #' @import dplyr
 #' @examples
-#' wordcount_plot(speech_tokens("https://kinginstitute.stanford.edu/our-god-marching"))
+#' url <- "https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom"
+#' title <- "I Have a Dream"
+#' author <- "Dr. Martin Luther King, Jr."
+#' wordcount_plot(speech_tokens(url, title, author))
 wordcount_plot <- function(speech_tkn){
 
   speech_tkn %>%
-    count(word) %>%
+    count(word, title, author) %>%
     top_n(10) %>%
     arrange(desc(n)) %>%
     mutate(word = factor(word, levels = rev(unique(word)))) %>%
