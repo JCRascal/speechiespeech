@@ -23,3 +23,5 @@ Imports:
     tibble,
     tidytext,
     stopwords
+Depends: 
+    R (>= 2.10)
