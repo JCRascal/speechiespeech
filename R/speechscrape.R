@@ -17,7 +17,7 @@
 #    restrictive regex function?
 # 2. Helpers to apply common use cases for parameters
 # 3. Custom stopword creation helpers
-speechscrape <- function(url, slctr = "p+ p"){?j
+speechscrape <- function(url, slctr = "p+ p"){
   xml2::read_html(url) %>%
     rvest::html_nodes(slctr) %>%
     rvest::html_text() %>%
