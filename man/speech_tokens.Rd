@@ -4,10 +4,10 @@
 \alias{speech_tokens}
 \title{Speech Tokenizer}
 \usage{
-speech_tokens(url, title, author)
+speech_tokens(text, title, author)
 }
 \arguments{
-\item{url}{string value oftarget url containing speech to be parsed into tibble}
+\item{text}{string containing full text to be tokenized}
 
 \item{title}{string value of speech title}
 
@@ -17,16 +17,7 @@ speech_tokens(url, title, author)
 
 }
 \description{
-speech_tokens function receives a url input and uses CSS selectors
-to parse and tokenize the portion of the target url believed to contain the
-txt of a speech; returns a tibble containing each word in that speech
-}
-\examples{
-url <- "https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom"
-title <- "I Have a Dream"
-author <- "Dr. Martin Luther King, Jr."
-speech_tokens(url, title, author)
-
-
-
+speech_tokens function receives a url input and uses CSS selectors to parse
+and tokenize the portion of the target url believed to contain the txt of a
+speech; returns a tibble containing each word in that speech
 }

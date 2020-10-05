@@ -2,6 +2,7 @@
 
 export(spch_tkn_map)
 export(speech_tokens)
+export(speechscrape)
 export(wordcount_plot)
 import(dplyr)
 import(ggplot2)
