@@ -2,17 +2,27 @@
 % Please edit documentation in R/speechscrape.R
 \name{speechscrape}
 \alias{speechscrape}
+\alias{speechscrape2}
 \title{Speech Scrape}
 \usage{
 speechscrape(url, slctr = "p+ p")
+
+speechscrape2(.data)
 }
 \arguments{
 \item{url}{string containing location of chosen html file}
 
 \item{slctr}{string specifying css selector for chosen text}
+
+\item{.data}{A data frame or tibble containing the url and css selector of
+the desired documents}
 }
 \value{
+speechscrape returns a single character value containing containing the
+processed text found at the location and css selector specified by input
 
+speechscrape2 returns a list object where each element is a list containing
+a single processed text,
 }
 \description{
 Here I am describing some things.

@@ -11,9 +11,9 @@
 #' @import ggplot2
 #' @import dplyr
 #' @examples
-#' url <- "https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom"
-#' title <- "I Have a Dream"
-#' author <- "Dr. Martin Luther King, Jr."
+#' url <- "https://er.jsc.nasa.gov/seh/ricetalk.htm"
+#' title <- "Moon Speech"
+#' author <- "John F. Kennedy"
 #' wordcount_plot(speech_tokens(url, title, author))
 wordcount_plot <- function(speech_tkn){
 

@@ -7,6 +7,11 @@
 #' @param slctr string specifying css selector for chosen text
 #'
 #' @return
+#' speechscrape returns a single character value containing containing the
+#' processed text found at the location and css selector specified by input
+#'
+#' speechscrape2 returns a list object where each element is a list containing
+#' a single processed text,
 #' @export
 #' @importFrom rlang .data
 #'
@@ -26,12 +31,21 @@ speechscrape <- function(url, slctr = "p+ p"){
     stringr::str_replace_all("\\s+", " ") %>%
     stringr::str_c(collapse = "")
 }
+#' @rdname speechscrape
+#' @param .data A data frame or tibble containing the url and css selector of
+#'   the desired documents
 #' @export
 # Version of speechscrape that receives a dataframe as an argument
 speechscrape2 <- function(.data){
-  purrr::map(.data$url, xml2::read_html) %>%
+  txt_df <- purrr::map(.data$url, xml2::read_html) %>%
     purrr::map2(.data$slctr, rvest::html_nodes) %>%
     purrr::map(rvest::html_text) %>%
     purrr::map(stringr::str_replace_all, "\\s+", " ") %>%
-    purrr::map(stringr::str_c, collapse = "")
+    purrr::map(stringr::str_c, collapse = " ") %>%
+    purrr::map_dfr(tibble::as_tibble_col, column_name = "text")
+
+  title <- .data$title
+  author <- .data$author
+
+  mutate(txt_df, "title" = title, "author" = author)
 }
