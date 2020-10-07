@@ -2,7 +2,7 @@
 url <- c("https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom",
           "https://kinginstitute.stanford.edu/king-papers/documents/beyond-vietnam",
           "https://kinginstitute.stanford.edu/our-god-marching",
-          "https://kinginstitute.stanford.edu/encyclopedia/ive-been-mountaintop")
+         "https://kinginstitute.stanford.edu/king-papers/documents/ive-been-mountaintop-address-delivered-bishop-charles-mason-temple")
 
 title <- c("I Have a Dream",
             "Beyond Vietnam",

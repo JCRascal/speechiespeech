@@ -8,6 +8,7 @@
 #'
 #' @return
 #' @export
+#' @importFrom rlang .data
 #'
 #' @examples
 
@@ -25,9 +26,12 @@ speechscrape <- function(url, slctr = "p+ p"){
     stringr::str_replace_all("\\s+", " ") %>%
     stringr::str_c(collapse = "")
 }
-
-# strong consideration to just use textclean package for noww
-
-# regex helper. consider giving it simple list of filters such as
-# eliminate, contents of em tags, parentheses, brackets, first line, last line
-# ask for feedback from Brandon
+#' @export
+# Version of speechscrape that receives a dataframe as an argument
+speechscrape2 <- function(.data){
+  purrr::map(.data$url, xml2::read_html) %>%
+    purrr::map2(.data$slctr, rvest::html_nodes) %>%
+    purrr::map(rvest::html_text) %>%
+    purrr::map(stringr::str_replace_all, "\\s+", " ") %>%
+    purrr::map(stringr::str_c, collapse = "")
+}
