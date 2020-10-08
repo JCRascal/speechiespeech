@@ -21,3 +21,13 @@ speech_tokens <- function(text, title, author){
     dplyr::anti_join(stp_wrds) %>%
     dplyr::mutate(title = title, author = author)
 }
+
+#' @export
+speech_tokens_dfr <- function(.data){
+  text <- .data$text
+  title <- .data$title
+  author <- .data$author
+
+  purrr::pmap_dfr(tibble::tibble(text, title, author), speech_tokens)
+
+}

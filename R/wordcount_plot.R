@@ -14,7 +14,7 @@
 #' url <- "https://er.jsc.nasa.gov/seh/ricetalk.htm"
 #' title <- "Moon Speech"
 #' author <- "John F. Kennedy"
-#' wordcount_plot(speech_tokens(url, title, author))
+#' # wordcount_plot(speech_tokens(url, title, author))
 wordcount_plot <- function(speech_tkn){
 
   speech_tkn %>%

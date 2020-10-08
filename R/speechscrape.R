@@ -16,6 +16,11 @@
 #' @importFrom rlang .data
 #'
 #' @examples
+#' url <- spchlist$url[[2]]
+#' slctr <- spchlist$slctr[[2]]
+#' speechscrape(url, slctr)
+#'
+#' speechscrape2(spchlist)
 
 # Create helper functions that perform useful workflow alterations to include:
 # 1. regex calls to eliminate pesky lines that can't be easily avoided using

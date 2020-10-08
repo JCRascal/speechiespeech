@@ -27,3 +27,10 @@ a single processed text,
 \description{
 Here I am describing some things.
 }
+\examples{
+url <- spchlist$url[[2]]
+slctr <- spchlist$slctr[[2]]
+speechscrape(url, slctr)
+
+speechscrape2(spchlist)
+}
