@@ -7,7 +7,10 @@
 #' @param text string containing full text to be tokenized
 #' @param title string value of speech title
 #' @param author string value of speech author's full name
-#' @return
+#' @return A tibble where the elements represent all words in a given document,
+#'   filtered for common stopwords. Contains the documents of a single document
+#'   if the call is to speech_tokens, several documents if the call is to
+#'   speech_tokens_dfr
 #' @export
 #' @importFrom magrittr %>%
 #' @import stopwords

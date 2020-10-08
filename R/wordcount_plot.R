@@ -4,8 +4,8 @@
 #' from a speech, counts the number of occurences of each word
 #'
 #' @param speech_tkn tokenized speech object input
-#'
-#' @return
+#' @return Horizontal bar graph that displays the most frequently occuring
+#'   words, by frequency, in a tokenized collection of words
 #' @export
 #' @importFrom magrittr %>%
 #' @import ggplot2

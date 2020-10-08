@@ -14,7 +14,10 @@ speech_tokens(text, title, author)
 \item{author}{string value of speech author's full name}
 }
 \value{
-
+A tibble where the elements represent all words in a given document,
+filtered for common stopwords. Contains the documents of a single document
+if the call is to speech_tokens, several documents if the call is to
+speech_tokens_dfr
 }
 \description{
 speech_tokens function receives a url input and uses CSS selectors to parse

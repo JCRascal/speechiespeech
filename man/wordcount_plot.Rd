@@ -10,7 +10,8 @@ wordcount_plot(speech_tkn)
 \item{speech_tkn}{tokenized speech object input}
 }
 \value{
-
+Horizontal bar graph that displays the most frequently occuring
+words, by frequency, in a tokenized collection of words
 }
 \description{
 The speech_tkn function receives as input a tidy tokenized tibble of text
