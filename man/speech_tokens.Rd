@@ -2,9 +2,12 @@
 % Please edit documentation in R/speech_tokens.R
 \name{speech_tokens}
 \alias{speech_tokens}
+\alias{speech_tokens_dfr}
 \title{Speech Tokenizer}
 \usage{
 speech_tokens(text, title, author)
+
+speech_tokens_dfr(.data)
 }
 \arguments{
 \item{text}{string containing full text to be tokenized}
@@ -12,6 +15,9 @@ speech_tokens(text, title, author)
 \item{title}{string value of speech title}
 
 \item{author}{string value of speech author's full name}
+
+\item{.data}{A data frame or tibble containing columns of text, title, and
+author of the desired documents}
 }
 \value{
 A tibble where the elements represent all words in a given document,
@@ -23,4 +29,13 @@ speech_tokens_dfr
 speech_tokens function receives a url input and uses CSS selectors to parse
 and tokenize the portion of the target url believed to contain the txt of a
 speech; returns a tibble containing each word in that speech
+}
+\examples{
+text <- sample_speech_data$text[5]
+title <- sample_speech_data$title[5]
+author <- sample_speech_data$author[5]
+
+speech_tokens(text, title, author)
+
+speech_tokens_dfr(sample_speech_data)
 }

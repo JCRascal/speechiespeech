@@ -14,17 +14,28 @@
 #' @export
 #' @importFrom magrittr %>%
 #' @import stopwords
+#' @examples
+#' text <- sample_speech_data$text[5]
+#' title <- sample_speech_data$title[5]
+#' author <- sample_speech_data$author[5]
+#'
+#' speech_tokens(text, title, author)
+#'
+#' speech_tokens_dfr(sample_speech_data)
 
 speech_tokens <- function(text, title, author){
   stp_wrds <- tidytext::get_stopwords()
 
   text %>%
     tibble::as_tibble() %>%
-    tidytext::unnest_tokens(word, value) %>%
+    tidytext::unnest_tokens(.data$word, .data$value) %>%
     dplyr::anti_join(stp_wrds) %>%
     dplyr::mutate(title = title, author = author)
 }
 
+#' @rdname speech_tokens
+#' @param .data A data frame or tibble containing columns of text, title, and
+#'   author of the desired documents
 #' @export
 speech_tokens_dfr <- function(.data){
   text <- .data$text

@@ -18,11 +18,11 @@
 wordcount_plot <- function(speech_tkn){
 
   speech_tkn %>%
-    count(word, title, author) %>%
+    count(.data$word, .data$title, .data$author) %>%
     top_n(10) %>%
     arrange(desc(n)) %>%
-    mutate(word = factor(word, levels = rev(unique(word)))) %>%
-    ggplot(aes(word, n)) +
+    mutate(word = factor(.data$word, levels = rev(unique(.data$word)))) %>%
+    ggplot(aes(.data$word, n)) +
     geom_col(show.legend = FALSE) +
     coord_flip()
 }
