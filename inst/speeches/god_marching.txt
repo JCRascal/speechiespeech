@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]-->
+<!--[if !IE]> --> <html lang="en" dir="ltr"> <!-- <![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+<link rel="shortcut icon" href="https://kinginstitute.stanford.edu/sites/mlk/themes/stanford_wilbur/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="/sites/mlk/themes/stanford_framework/apple-touch-icon.png" rel="apple-touch-icon" />
+<meta name="description" content="25 March 1965 Montgomery, Ala." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://kinginstitute.stanford.edu/our-god-marching" />
+<link rel="shortlink" href="https://kinginstitute.stanford.edu/node/1445" />
+<meta property="og:site_name" content="The Martin Luther King, Jr., Research and Education Institute" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Our God is Marching On!" />
+<meta property="og:url" content="https://kinginstitute.stanford.edu/our-god-marching" />
+<meta property="og:description" content="25 March 1965 Montgomery, Ala." />
+<meta property="og:updated_time" content="2015-04-24T07:29:00-07:00" />
+<meta property="og:image" content="https://kinginstitute.stanford.edu/sites/mlk/files/styles/page-width/public/call_to_consciencecover_4.gif?itok=xOOQjc8y" />
+<meta property="og:image" content="https://kinginstitute.stanford.edu/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://kinginstitute.stanford.edu/our-god-marching" />
+<meta name="twitter:title" content="Our God is Marching On!" />
+<meta name="twitter:description" content="25 March 1965 Montgomery, Ala." />
+<meta name="twitter:image" content="https://kinginstitute.stanford.edu/sites/mlk/files/styles/page-width/public/call_to_consciencecover_4.gif?itok=xOOQjc8y" />
+<meta property="article:published_time" content="2014-07-07T10:14:02-07:00" />
+<meta property="article:modified_time" content="2015-04-24T07:29:00-07:00" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Our God is Marching On! | The Martin Luther King, Jr., Research and Education Institute</title>
+  <link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css/css_q7x8hQJL6MjiaLfkgg9DZCz8QF4JtOS3y1P5vBxeo20.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css/css_UHwp2UoQRKnihI2JK5G0XY12ZHcAugVHClh5jw6ipz0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css/css_6_iS33iOWV7bjZ5rTsOT7kgUZasoIO1xxgg0Utvkk1w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css/css_nGZ0EUi6HATidAf3pITrpLdyTGtTsmfVAzXLpUp2gr4.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css/css_-DD6bOeNbA3wjGuBqbkY6SKYPLVI7XlX9AQTF6KC6pY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kinginstitute.stanford.edu/sites/mlk/files/css_injector/css_injector_31.css?qhe8i4" media="all" />
+  <script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_ZDOaep6HA5A0eriyiN-YaNv7MHsjd-FIuFyilZ2o5cw.js"></script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_g98Ekqvuj1mMaUqTkLdcrMmJymw4aFC5YyzBQBviahY.js"></script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_38VWQ3jjQx0wRFj7gkntZr077GgJoGn5nv3v05IeLLo.js"></script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k.js"></script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_dcvUqFT39D9nfx5s1jzy0SWmeKIHhbbkaLjntGWmVkY.js"></script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_e8_xAlUO33NVzjX6ub-uiUhNHOgN4LRpnjVGDoOL6h4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-3404231-2", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_--Ux7W5DjWcsVVtMWJI4FaD7dgnEJi0EBbPbQ7W39Jk.js"></script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_lwzJeXOXdNPAbw7ThjcrhrPFAUgW_lR49bJ8nQYUbcY.js"></script>
+<script type="text/javascript" src="https://kinginstitute.stanford.edu/sites/mlk/files/js/js_6lEiBKPgYd0J4j7bMPiKzKQR5ow6mo0LR6Gtg_UkEpo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_wilbur","theme_token":"xz4y44BNgjYcZuiw0L6VquU6dWx56B5kG3lJUk-jeH8","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/mlk\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/mlk\/modules\/stanford\/stanford_bean_types\/css\/social-media.css":1,"sites\/mlk\/modules\/stanford\/stanford_bean_types\/css\/icon-block.css":1,"sites\/mlk\/modules\/stanford\/stanford_bean_types\/css\/full-width-banner.css":1,"sites\/mlk\/modules\/stanford\/stanford_carousel\/css\/stanford_carousel.css":1,"sites\/mlk\/modules\/stanford\/stanford_fwb\/css\/stanford_fwb.css":1,"sites\/mlk\/modules\/stanford\/stanford_gallery\/css\/stanford_gallery.css":1,"sites\/mlk\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart-theme-fixes.css":1,"sites\/mlk\/modules\/stanford\/stanford_jumpstart\/modules\/stanford_jumpstart_shortcuts\/css\/shortcuts.css":1,"sites\/mlk\/modules\/stanford\/stanford_landing_page\/css\/stanford_landing_page.css":1,"sites\/mlk\/modules\/stanford\/stanford_news\/css\/stanford_news.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/mlk\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/mlk\/modules\/contrib\/context_accordion\/context_accordion.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/mlk\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/mlk\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap.min.css":1,"sites\/mlk\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap-responsive.min.css":1,"sites\/mlk\/themes\/open_framework\/packages\/font-awesome-3.2.1\/css\/font-awesome.min.css":1,"sites\/mlk\/themes\/open_framework\/css\/open_framework.css":1,"sites\/mlk\/themes\/stanford_framework\/css\/stanford-framework.css":1,"sites\/mlk\/themes\/stanford_framework\/css\/stanford_default\/stanford-default.css":1,"sites\/mlk\/themes\/stanford_framework\/css\/ie.css":1,"sites\/mlk\/themes\/stanford_wilbur\/css\/stanford_wilbur.css":1,"sites\/mlk\/themes\/open_framework\/css\/open_framework_print.css":1,"sites\/mlk\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_7.css":1,"public:\/\/css_injector\/css_injector_8.css":1,"public:\/\/css_injector\/css_injector_10.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"public:\/\/css_injector\/css_injector_21.css":1,"public:\/\/css_injector\/css_injector_31.css":1},"js":{"misc\/jquery.js":1,"sites\/mlk\/themes\/open_framework\/js\/jquery-migrate-1.2.1.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/mlk\/modules\/stanford\/stanford_bean_types\/js\/stanford-bean-types.js":1,"sites\/mlk\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel.js":1,"sites\/mlk\/modules\/stanford\/stanford_events_importer\/js\/stanford_event_nodes.js":1,"sites\/mlk\/modules\/stanford\/stanford_events_importer\/js\/stanford_events_calendar.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/mlk\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/mlk\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/mlk\/modules\/contrib\/context_accordion\/context_accordion.js":1,"sites\/mlk\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/mlk\/modules\/contrib\/field_group\/field_group.js":1,"sites\/mlk\/themes\/open_framework\/packages\/bootstrap-2.3.1\/js\/bootstrap.min.js":1,"sites\/mlk\/themes\/open_framework\/js\/open_framework.js":1,"sites\/mlk\/themes\/open_framework\/js\/jquery.placeholder.min.js":1,"sites\/mlk\/themes\/open_framework\/js\/override.js":1,"sites\/mlk\/themes\/stanford_framework\/js\/stanford-framework.js":1,"sites\/mlk\/themes\/stanford_wilbur\/js\/stanford_wilbur.js":1,"sites\/mlk\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel_aria.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"field_group":{"div":"default"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/our-god-marching":true}});
+//--><!]]>
+</script>
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/sites/mlk/themes/open_framework/packages/font-awesome-3.2.1/css/font-awesome-ie7.min.css" />  <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="/sites/mlk/themes/open_framework/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1445 node-type-stanford-page        style-default  header-bkg-image header-bkg-text-light" >
+    <div id="wrap"><a href="#main" class="element-invisible element-focusable">Skip to content</a>
+    <a href="#main-nav" class="element-invisible element-focusable">Skip to navigation</a>
+    <!-- /#skipnav -->
+    <!-- /#admin-shortcuts -->
+  <div id="global-header">
+    <div class="container">
+      <div class="row-fluid">
+        <div id="top-logo" class="span4"><a href="http://www.stanford.edu"><img src="/sites/mlk/themes/stanford_framework/images/header-stanford-logo@2x.png" alt="Stanford University"></a></div>
+                <div id="top-menu" class="span8"><div class="region region-global-header clearfix">
+  <div id="block-stanford-saml-block-stanford-saml-block-login-block" class="clearfix block block-stanford-saml-block">     <h2>SUNetID Login</h2>
+      <div class="content"> <a href="/sso/login?destination=node/1445">SUNetID Login</a> </div>
+</div></div>
+ <!-- /.region -->
+</div>
+              </div>
+    </div>
+  </div>
+  <!-- /#global-header -->
+  <div id="header" class="clearfix header line1 line2" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="span9">
+                    <div id="logo" class=" "> <a href="/" title="Home" rel="home"> <img src="https://kinginstitute.stanford.edu/sites/mlk/themes/stanford_wilbur/logo.png" alt="Stanford" role="presentation"> </a>
+                      </div>
+                    <!-- /#logo -->
+                    <div id="name-and-slogan"  class="with-logo two-lines">
+                                    <div id="site-title-first-line" ><a href="/" title="Home" rel="home">The Martin Luther King, Jr.</a></div>
+                                    <div id="site-title-second-line"><a href="/" title="Home" rel="home">Research and Education Institute</a></div>
+                                              </div>
+                                        <!-- /#name-and-slogan -->
+                    <!-- /#header-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#header -->
+    <div id="main-menu" class="clearfix site-main-menu">
+    <div class="container">
+      <div class="navbar">
+                <div class="navbar-inner">
+                              <div id="nav-search" class="nav-search"> <div class="region region-search-box clearfix">
+  <div id="block-search-form" class="clearfix block block-search" role="search">       <div class="content"> <form action="/our-god-marching" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="input-medium search-query form-text" placeholder="Search this site..." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn-search form-submit" alt="Search" type="image" id="edit-submit" name="submit" src="https://kinginstitute.stanford.edu/sites/mlk/themes/open_framework/images/searchbutton.png" /></div><input type="hidden" name="form_build_id" value="form-Md5F1smo1964RTkbQL4b3Ubir0FvAJ4o7-jsAWkKyx0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                              <button aria-label="Navigation menu" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"> <span class="hide">Navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <div class="nav-collapse collapse">
+            <nav id="main-nav" role="navigation">
+                                          <div class="region region-navigation clearfix">
+  <div id="block-menu-block-1" class="clearfix block block-menu-block">     <h2>Main menu</h2>
+      <div class="content"> <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-1151"><a href="/">Home</a></li>
+<li class="expanded menu-mlid-1159 dropdown"><a href="/king-papers/about-papers-project" class="dropdown-toggle" data-toggle="dropdown" data-target="#">King Papers <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf has-children menu-mlid-1309"><a href="/king-papers/about-papers-project" title="">About the Papers Project</a></li>
+<li class="leaf menu-mlid-2831"><a href="/publications/king-papers" title="">Volumes</a></li>
+<li class="leaf menu-mlid-2113"><a href="/king-papers/documents" title="">Featured Documents</a></li>
+<li class="last leaf menu-mlid-2793"><a href="/king-papers/search" title="">Search Documents</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1155 dropdown"><a href="/liberation-curriculum" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Liberation Curriculum <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1345"><a href="/liberation-curriculum" title="">About the Liberation Curriculum</a></li>
+<li class="leaf menu-mlid-19846"><a href="https://kinginstitute.stanford.edu/world-house-podcast" title="World House Podcast ">Podcast</a></li>
+<li class="leaf has-children menu-mlid-2785"><a href="/liberation-curriculum/lesson-plans" title="">Lesson Plans</a></li>
+<li class="leaf menu-mlid-20421"><a href="/liberation-curriculum/american-prophet-online-course-companion">American Prophet: Online Course Companion</a></li>
+<li class="leaf has-children menu-mlid-1445"><a href="/liberation-curriculum/create-your-own-classroom-activity">Create Your Own Classroom Activity</a></li>
+<li class="leaf has-children menu-mlid-1317"><a href="/liberation-curriculum/classroom-resources">Classroom Resources</a></li>
+<li class="last leaf has-children menu-mlid-1321"><a href="/liberation-curriculum/partnerships">Partnerships</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1299 dropdown"><a href="/king-resources" title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#">King Resources <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-5650"><a href="/king-resources/king-resources-overview">King Resources Overview</a></li>
+<li class="leaf menu-mlid-2834"><a href="/encyclopedia" title="Search here for information on over 1000 civil rights movement figures, events and organizations, a chronology of the movement, and full-text documents published online.">King Encyclopedia</a></li>
+<li class="leaf menu-mlid-2842"><a href="/king-resources/documents">Documents</a></li>
+<li class="leaf menu-mlid-1233"><a href="/king-resources/document-research-requests">Document Research Requests</a></li>
+<li class="leaf menu-mlid-1323"><a href="/news/freedoms-ring-i-have-dream-speech" title="">Freedom&#039;s Ring: King&#039;s &quot;I Have a Dream&quot; Speech</a></li>
+<li class="leaf menu-mlid-1443"><a href="/king-resources/major-king-events-chronology-1929-1968">Major King Events Chronology</a></li>
+<li class="leaf menu-mlid-2803"><a href="/publications/king-resources" title="">King Institute Publications</a></li>
+<li class="last leaf has-children menu-mlid-2821"><a href="/king-resources/recommended-readings">Recommended Readings</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1165 dropdown"><a href="/institute" title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#">The Institute <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1227"><a href="/institute/king-institute">About the Institute</a></li>
+<li class="leaf has-children menu-mlid-1167"><a href="/clayborne-carson" title="Martin Luther King Jr. Centennial Professor of History">Clayborne Carson</a></li>
+<li class="leaf menu-mlid-1229"><a href="/institute/visit-institute">Visit The Institute</a></li>
+<li class="leaf menu-mlid-1295"><a href="/institute/our-supporters">Our Supporters</a></li>
+<li class="leaf menu-mlid-1215"><a href="/people/staff" title="">Our Staff</a></li>
+<li class="leaf menu-mlid-1235"><a href="/institute/join-march">Make a Gift</a></li>
+<li class="leaf has-children menu-mlid-6538"><a href="/institute/history">History</a></li>
+<li class="last leaf menu-mlid-10706"><a href="/institute/gkgi">Gandhi-King Global Initiative</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-1559 dropdown"><a href="/news-events" title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#">News & Events <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-2801"><a href="/news/recent-news" title="">News</a></li>
+<li class="last leaf has-children menu-mlid-1163"><a href="/events/upcoming-events" title="">Events</a></li>
+</ul></li>
+</ul></div>
+ </div>
+</div></div>
+ <!-- /.region -->
+                          </nav>
+          </div>
+                                      </div>
+              </div>
+    </div>
+  </div>
+  <!-- /#main-menu -->
+  
+  
+  <div id="main" class="clearfix main" role="main">
+  	        <div class="container">
+            <div id="main-content" class="row main-content">
+                <div id="content" class="mc-content span12">
+          <div id="content-wrapper" class="content-wrapper">
+            <div id="content-head" class="row-fluid content-head">
+                                                        <h1 class="title" id="page-title"> Our God is Marching On! </h1>
+                                                                                                </div>
+                                                <div id="content-body" class="row-fluid content-body"> <div class="region region-content clearfix">
+  <div id="block-system-main" class="clearfix block block-system">       <div class="content"> <article id="node-1445" class="node node-stanford-page clearfix" about="/our-god-marching" typeof="sioc:Item foaf:Document">      <span property="dc:title" content="Our God is Marching On!" class="rdf-meta element-hidden"></span>    <div class="content">
+    <div id="node-stanford-page-full-group-s-postcard" class="postcard group-s-postcard field-group-div"><div id="node-stanford-page-full-group-s-postcard-image" class="postcard-image group_s_postcard_image group-s-postcard-image field-group-div"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-large-scaled field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/95" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-large-scaled-group-s-image-border-style" class="border-simple-nowidth border-shadow border-bottom group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-large-scaled" typeof="foaf:Image" src="https://kinginstitute.stanford.edu/sites/mlk/files/styles/large-scaled/public/call_to_consciencecover_4.gif?itok=U5nzUdEP" width="150" height="230" alt="" /></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div id="node-stanford-page-full-group-s-postcard-content" class="postcard-content group-s-postcard-content field-group-div"><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><span>25 March 1965</span></p>
+<div>
+	<p>Montgomery, Ala.</p>
+	<p>My dear and abiding friends, Ralph Abernathy, and to all of the distinguished Americans seated here on the rostrum, my friends and co-workers of the state of Alabama, and to all of the freedom-loving people who have assembled here this afternoon from all over our nation and from all over the world: Last Sunday, more than eight thousand of us started on a mighty walk from Selma, Alabama. We have walked through desolate valleys and across the trying hills. We have walked on meandering highways and rested our bodies on rocky byways. Some of our faces are burned from the outpourings of the sweltering sun. Some have literally slept in the mud. We have been drenched by the rains. [Audience:] (Speak) Our bodies are tired and our feet are somewhat sore.</p>
+	<p>But today as I stand before you and think back over that great march, I can say, as Sister Pollard said—a seventy-year-old Negro woman who lived in this community during the bus boycott—and one day, she was asked while walking if she didn’t want to ride. And when she answered, "No," the person said, "Well, aren’t you tired?" And with her ungrammatical profundity, she said, "My feets is tired, but my soul is rested." (Yes, sir. All right) And in a real sense this afternoon, we can say that our feet are tired, (Yes, sir) but our souls are rested.</p>
+	<p>They told us we wouldn’t get here. And there were those who said that we would get here only over their dead bodies, (Well. Yes, sir. Talk) but all the world today knows that we are here and we are standing before the forces of power in the state of Alabama saying, "We ain’t goin’ let nobody turn us around." (Yes, sir. Speak) [Applause]</p>
+	<p>Now it is not an accident that one of the great marches of American history should terminate in Montgomery, Alabama. (Yes, sir) Just ten years ago, in this very city, a new philosophy was born of the Negro struggle. Montgomery was the first city in the South in which the entire Negro community united and squarely faced its age-old oppressors. (Yes, sir. Well) Out of this struggle, more than bus [de]segregation was won; a new idea, more powerful than guns or clubs was born. Negroes took it and carried it across the South in epic battles (Yes, sir. Speak) that electrified the nation (Well) and the world.</p>
+	<p>Yet, strangely, the climactic conflicts always were fought and won on Alabama soil. After Montgomery’s, heroic confrontations loomed up in Mississippi, Arkansas, Georgia, and elsewhere. But not until the colossus of segregation was challenged in Birmingham did the conscience of America begin to bleed. White America was profoundly aroused by Birmingham because it witnessed the whole community of Negroes facing terror and brutality with majestic scorn and heroic courage. And from the wells of this democratic spirit, the nation finally forced Congress (Well) to write legislation (Yes, sir) in the hope that it would eradicate the stain of Birmingham. The Civil Rights Act of 1964 gave Negroes some part of their rightful dignity, (Speak, sir) but without the vote it was dignity without strength. (Yes, sir)</p>
+	<p>Once more the method of nonviolent resistance (Yes) was unsheathed from its scabbard, and once again an entire community was mobilized to confront the adversary. (Yes, sir) And again the brutality of a dying order shrieks across the land. Yet, Selma, Alabama, became a shining moment in the conscience of man. If the worst in American life lurked in its dark streets, the best of American instincts arose passionately from across the nation to overcome it. (Yes, sir. Speak) There never was a moment in American history (Yes, sir) more honorable and more inspiring than the pilgrimage of clergymen and laymen of every race and faith pouring into Selma to face danger (Yes) at the side of its embattled Negroes.</p>
+	<p>The confrontation of good and evil compressed in the tiny community of Selma (Speak, speak) generated the massive power (Yes, sir. Yes, sir) to turn the whole nation to a new course. A president born in the South (Well) had the sensitivity to feel the will of the country, (Speak, sir) and in an address that will live in history as one of the most passionate pleas for human rights ever made by a president of our nation, he pledged the might of the federal government to cast off the centuries-old blight. President Johnson rightly praised the courage of the Negro for awakening the conscience of the nation. (Yes, sir)</p>
+	<p>On our part we must pay our profound respects to the white Americans who cherish their democratic traditions over the ugly customs and privileges of generations and come forth boldly to join hands with us. (Yes, sir) From Montgomery to Birmingham, (Yes, sir) from Birmingham to Selma, (Yes, sir) from Selma back to Montgomery, (Yes) a trail wound in a circle long and often bloody, yet it has become a highway up from darkness. (Yes, sir) Alabama has tried to nurture and defend evil, but evil is choking to death in the dusty roads and streets of this state. (Yes, sir. Speak, sir) So I stand before you this afternoon (Speak, sir. Well) with the conviction that segregation is on its deathbed in Alabama, and the only thing uncertain about it is how costly the segregationists and Wallace will make the funeral. (Go ahead. Yes, sir) [Applause]</p>
+	<p>Our whole campaign in Alabama has been centered around the right to vote. In focusing the attention of the nation and the world today on the flagrant denial of the right to vote, we are exposing the very origin, the root cause, of racial segregation in the Southland. Racial segregation as a way of life did not come about as a natural result of hatred between the races immediately after the Civil War. There were no laws segregating the races then. And as the noted historian, C. Vann Woodward, in his book, The Strange Career of Jim Crow, clearly points out, the segregation of the races was really a political stratagem employed by the emerging Bourbon interests in the South to keep the southern masses divided and southern labor the cheapest in the land. You see, it was a simple thing to keep the poor white masses working for near-starvation wages in the years that followed the Civil War. Why, if the poor white plantation or mill worker became dissatisfied with his low wages, the plantation or mill owner would merely threaten to fire him and hire former Negro slaves and pay him even less. Thus, the southern wage level was kept almost unbearably low.</p>
+	<p>Toward the end of the Reconstruction era, something very significant happened. (Listen to him) That is what was known as the Populist Movement. (Speak, sir) The leaders of this movement began awakening the poor white masses (Yes, sir) and the former Negro slaves to the fact that they were being fleeced by the emerging Bourbon interests. Not only that, but they began uniting the Negro and white masses (Yeah) into a voting bloc that threatened to drive the Bourbon interests from the command posts of political power in the South.</p>
+	<p>To meet this threat, the southern aristocracy began immediately to engineer this development of a segregated society. (Right) I want you to follow me through here because this is very important to see the roots of racism and the denial of the right to vote. Through their control of mass media, they revised the doctrine of white supremacy. They saturated the thinking of the poor white masses with it, (Yes) thus clouding their minds to the real issue involved in the Populist Movement. They then directed the placement on the books of the South of laws that made it a crime for Negroes and whites to come together as equals at any level. (Yes, sir) And that did it. That crippled and eventually destroyed the Populist Movement of the nineteenth century.</p>
+	<p>If it may be said of the slavery era that the white man took the world and gave the Negro Jesus, then it may be said of the Reconstruction era that the southern aristocracy took the world and gave the poor white man Jim Crow. (Yes, sir) He gave him Jim Crow. (Uh huh) And when his wrinkled stomach cried out for the food that his empty pockets could not provide, (Yes, sir) he ate Jim Crow, a psychological bird that told him that no matter how bad off he was, at least he was a white man, better than the black man. (Right sir) And he ate Jim Crow. (Uh huh) And when his undernourished children cried out for the necessities that his low wages could not provide, he showed them the Jim Crow signs on the buses and in the stores, on the streets and in the public buildings. (Yes, sir) And his children, too, learned to feed upon Jim Crow, (Speak) their last outpost of psychological oblivion. (Yes, sir)</p>
+	<p>Thus, the threat of the free exercise of the ballot by the Negro and the white masses alike (Uh huh) resulted in the establishment of a segregated society. They segregated southern money from the poor whites; they segregated southern mores from the rich whites; (Yes, sir) they segregated southern churches from Christianity (Yes, sir); they segregated southern minds from honest thinking; (Yes, sir) and they segregated the Negro from everything. (Yes, sir) That’s what happened when the Negro and white masses of the South threatened to unite and build a great society: a society of justice where none would pray upon the weakness of others; a society of plenty where greed and poverty would be done away; a society of brotherhood where every man would respect the dignity and worth of human personality. (Yes, sir)</p>
+	<p>We’ve come a long way since that travesty of justice was perpetrated upon the American mind. James Weldon Johnson put it eloquently. He said:</p>
+	<blockquote>
+		<blockquote>
+			<blockquote>
+				<blockquote>
+					<p>We have come over a way</p>
+					<p>That with tears hath been watered. (Yes, sir)</p>
+					<p>We have come treading our paths</p>
+					<p>Through the blood of the slaughtered. (Yes, sir)</p>
+					<p>Out of the gloomy past, (Yes, sir)</p>
+					<p>Till now we stand at last</p>
+					<p>Where the white gleam</p>
+					<p>Of our bright star is cast. (Speak, sir)</p>
+				</blockquote>
+			</blockquote>
+		</blockquote>
+	</blockquote>
+	<p>Today I want to tell the city of Selma, (Tell them, Doctor) today I want to say to the state of Alabama, (Yes, sir) today I want to say to the people of America and the nations of the world, that we are not about to turn around. (Yes, sir) We are on the move now. (Yes, sir)</p>
+	<p>Yes, we are on the move and no wave of racism can stop us. (Yes, sir) We are on the move now. The burning of our churches will not deter us. (Yes, sir) The bombing of our homes will not dissuade us. (Yes, sir) We are on the move now. (Yes, sir) The beating and killing of our clergymen and young people will not divert us. We are on the move now. (Yes, sir) The wanton release of their known murderers would not discourage us. We are on the move now. (Yes, sir) Like an idea whose time has come, (Yes, sir) not even the marching of mighty armies can halt us. (Yes, sir) We are moving to the land of freedom. (Yes, sir)</p>
+	<p>Let us therefore continue our triumphant march (Uh huh) to the realization of the American dream. (Yes, sir) Let us march on segregated housing (Yes, sir) until every ghetto or social and economic depression dissolves, and Negroes and whites live side by side in decent, safe, and sanitary housing. (Yes, sir) Let us march on segregated schools (Let us march, Tell it) until every vestige of segregated and inferior education becomes a thing of the past, and Negroes and whites study side-by-side in the socially-healing context of the classroom.</p>
+	<p>Let us march on poverty (Let us march) until no American parent has to skip a meal so that their children may eat. (Yes, sir) March on poverty (Let us march) until no starved man walks the streets of our cities and towns (Yes, sir) in search of jobs that do not exist. (Yes, sir) Let us march on poverty (Let us march) until wrinkled stomachs in Mississippi are filled, (That's right) and the idle industries of Appalachia are realized and revitalized, and broken lives in sweltering ghettos are mended and remolded.</p>
+	<p>Let us march on ballot boxes, (Let’s march) march on ballot boxes until race-baiters disappear from the political arena.</p>
+	<p>Let us march on ballot boxes until the salient misdeeds of bloodthirsty mobs (Yes, sir) will be transformed into the calculated good deeds of orderly citizens. (Speak, Doctor)</p>
+	<p>Let us march on ballot boxes (Let us march) until the Wallaces of our nation tremble away in silence.</p>
+	<p>Let us march on ballot boxes (Let us march) until we send to our city councils (Yes, sir), state legislatures, (Yes, sir) and the United States Congress, (Yes, sir) men who will not fear to do justly, love mercy, and walk humbly with thy God.</p>
+	<p>Let us march on ballot boxes (Let us march. March) until brotherhood becomes more than a meaningless word in an opening prayer, but the order of the day on every legislative agenda.</p>
+	<p>Let us march on ballot boxes (Yes) until all over Alabama God’s children will be able to walk the earth in decency and honor.</p>
+	<p>There is nothing wrong with marching in this sense. (Yes, sir) The Bible tells us that the mighty men of Joshua merely walked about the walled city of Jericho (Yes) and the barriers to freedom came tumbling down. (Yes, sir) I like that old Negro spiritual, (Yes, sir) "Joshua Fit the Battle of Jericho." In its simple, yet colorful, depiction (Yes, sir) of that great moment in biblical history, it tells us that:</p>
+	<blockquote>
+		<blockquote>
+			<p>Joshua fit the battle of Jericho, (Tell it)</p>
+			<p>Joshua fit the battle of Jericho, (Yes, sir)</p>
+			<p>And the walls come tumbling down. (Yes, sir. Tell it)</p>
+			<p>Up to the walls of Jericho they marched, spear in hand. (Yes, sir)</p>
+			<p>"Go blow them ramhorns," Joshua cried,</p>
+			<p>"‘Cause the battle am in my hand." (Yes, sir)</p>
+		</blockquote>
+	</blockquote>
+	<p>These words I have given you just as they were given us by the unknown, long-dead, dark-skinned originator. (Yes, sir) Some now long-gone black bard bequeathed to posterity these words in ungrammatical form, (Yes, sir) yet with emphatic pertinence for all of us today. (Uh huh)</p>
+	<p>The battle is in our hands. And we can answer with creative nonviolence the call to higher ground to which the new directions of our struggle summons us. (Yes, sir) The road ahead is not altogether a smooth one. (No) There are no broad highways that lead us easily and inevitably to quick solutions. But we must keep going.</p>
+	<p>In the glow of the lamplight on my desk a few nights ago, I gazed again upon the wondrous sign of our times, full of hope and promise of the future. (Uh huh) And I smiled to see in the newspaper photographs of many a decade ago, the faces so bright, so solemn, of our valiant heroes, the people of Montgomery. To this list may be added the names of all those (Yes) who have fought and, yes, died in the nonviolent army of our day: Medgar Evers, (Speak) three civil rights workers in Mississippi last summer, (Uh huh) William Moore, as has already been mentioned, (Yes, sir) the Reverend James Reeb, (Yes, sir) Jimmy Lee Jackson, (Yes, sir) and four little girls in the church of God in Birmingham on Sunday morning. (Yes, sir) But in spite of this, we must go on and be sure that they did not die in vain. (Yes, sir) The pattern of their feet as they walked through Jim Crow barriers in the great stride toward freedom is the thunder of the marching men of Joshua, (Yes, sir) and the world rocks beneath their tread. (Yes, sir)</p>
+	<p>My people, my people, listen. (Yes, sir) The battle is in our hands. (Yes, sir) The battle is in our hands in Mississippi and Alabama and all over the United States. (Yes, sir) I know there is a cry today in Alabama, (Uh huh) we see it in numerous editorials: "When will Martin Luther King, SCLC, SNCC, and all of these civil rights agitators and all of the white clergymen and labor leaders and students and others get out of our community and let Alabama return to normalcy?"</p>
+	<p>But I have a message that I would like to leave with Alabama this evening. (Tell it) That is exactly what we don’t want, and we will not allow it to happen, (Yes, sir) for we know that it was normalcy in Marion (Yes, sir) that led to the brutal murder of Jimmy Lee Jackson. (Speak) It was normalcy in Birmingham (Yes) that led to the murder on Sunday morning of four beautiful, unoffending, innocent girls. It was normalcy on Highway 80 (Yes, sir) that led state troopers to use tear gas and horses and billy clubs against unarmed human beings who were simply marching for justice. (Speak, sir) It was normalcy by a cafe in Selma, Alabama, that led to the brutal beating of Reverend James Reeb.</p>
+	<p>It is normalcy all over our country (Yes, sir) which leaves the Negro perishing on a lonely island of poverty in the midst of vast ocean of material prosperity. It is normalcy all over Alabama (Yeah) that prevents the Negro from becoming a registered voter. (Yes) No, we will not allow Alabama (Go ahead) to return to normalcy. [Applause]</p>
+	<p>The only normalcy that we will settle for (Yes, sir) is the normalcy that recognizes the dignity and worth of all of God’s children. The only normalcy that we will settle for is the normalcy that allows judgment to run down like waters, and righteousness like a mighty stream. (Yes, sir) The only normalcy that we will settle for is the normalcy of brotherhood, the normalcy of true peace, the normalcy of justice.</p>
+	<p>And so as we go away this afternoon, let us go away more than ever before committed to this struggle and committed to nonviolence. I must admit to you that there are still some difficult days ahead. We are still in for a season of suffering in many of the black belt counties of Alabama, many areas of Mississippi, many areas of Louisiana. I must admit to you that there are still jail cells waiting for us, and dark and difficult moments. But if we will go on with the faith that nonviolence and its power can transform dark yesterdays into bright tomorrows, we will be able to change all of these conditions.</p>
+	<p>And so I plead with you this afternoon as we go ahead: remain committed to nonviolence. Our aim must never be to defeat or humiliate the white man, but to win his friendship and understanding. We must come to see that the end we seek is a society at peace with itself, a society that can live with its conscience. And that will be a day not of the white man, not of the black man. That will be the day of man as man. (Yes)</p>
+	<p>I know you are asking today, "How long will it take?" (Speak, sir) Somebody’s asking, "How long will prejudice blind the visions of men, darken their understanding, and drive bright-eyed wisdom from her sacred throne?" Somebody’s asking, "When will wounded justice, lying prostrate on the streets of Selma and Birmingham and communities all over the South, be lifted from this dust of shame to reign supreme among the children of men?" Somebody’s asking, "When will the radiant star of hope be plunged against the nocturnal bosom of this lonely night, (Speak, speak, speak) plucked from weary souls with chains of fear and the manacles of death? How long will justice be crucified, (Speak) and truth bear it?" (Yes, sir)</p>
+	<p>I come to say to you this afternoon, however difficult the moment, (Yes, sir) however frustrating the hour, it will not be long, (No sir) because "truth crushed to earth will rise again." (Yes, sir)</p>
+	<p>How long? Not long, (Yes, sir) because "no lie can live forever." (Yes, sir)</p>
+	<p>How long? Not long, (All right. How long) because "you shall reap what you sow." (Yes, sir)</p>
+	<p>How long? (How long?) Not long: (Not long)</p>
+	<blockquote>
+		<blockquote>
+			<p>Truth forever on the scaffold, (Speak)</p>
+			<p>Wrong forever on the throne, (Yes, sir)</p>
+			<p>Yet that scaffold sways the future, (Yes, sir)</p>
+			<p>And, behind the dim unknown,</p>
+			<p>Standeth God within the shadow,</p>
+			<p>Keeping watch above his own.</p>
+		</blockquote>
+	</blockquote>
+	<p>How long? Not long, because the arc of the moral universe is long, but it bends toward justice. (Yes, sir)</p>
+	<p>How long? Not long, (Not long) because:</p>
+	<blockquote>
+		<blockquote>
+			<p>Mine eyes have seen the glory of the coming of the Lord; (Yes, sir)</p>
+			<p>He is trampling out the vintage where the grapes of wrath are stored; (Yes)</p>
+			<p>He has loosed the fateful lightning of his terrible swift sword; (Yes, sir)</p>
+			<p>His truth is marching on. (Yes, sir)</p>
+			<p>He has sounded forth the trumpet that shall never call retreat; (Speak, sir)</p>
+			<p>He is sifting out the hearts of men before His judgment seat. (That’s right)</p>
+			<p>O, be swift, my soul, to answer Him! Be jubilant my feet!</p>
+			<p>Our God is marching on. (Yeah)</p>
+			<p>Glory, hallelujah! (Yes, sir) Glory, hallelujah! (All right)</p>
+			<p>Glory, hallelujah! Glory, hallelujah!</p>
+		</blockquote>
+	</blockquote>
+	<p>His truth is marching on. [Applause]</p>
+</div>
+<p> </p>
+</div></div></div></div></div>  </div>
+    </article> </div>
+</div></div>
+ <!-- /.region -->
+  </div>
+                                                                                                                      </div>
+          <!-- /#content-wrap -->
+        </div>
+        <!-- /#content -->
+              </div>
+                </div>
+  </div>
+  <!-- /#main, /#main-wrapper -->
+    <div id="push"></div>
+  <!-- /#push -->
+</div>
+<!-- /#wrap -->
+<div id="footer" class="clearfix footer site-footer">
+  <div class="container">
+        <div id="footer-content" class="row-fluid footer-content"> <div class="region region-footer clearfix">
+  <div id="block-bean-homepage-footer-menu1" class="clearfix block block-bean span4">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/homepage-footer-menu1" typeof="">
+
+  <div class="content">
+    <div id="bean-stanford-postcard-full-group-s-postcard" class="postcard group-s-postcard field-group-div"><div id="bean-stanford-postcard-full-group-s-postcard-content" class="postcard-content group-s-postcard-content field-group-div"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h2>King Papers</h2>
+<p><a href="/king-papers/about-papers-project" rel="nofollow">About the Papers Project</a></p>
+<p><a href="/publications/king-papers" rel="nofollow">Volumes</a></p>
+<p><a href="/king-papers/documents" rel="nofollow">Featured Documents</a></p>
+<p><a href="/king-papers/search" rel="nofollow">Search Documents</a></p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-homepage-footer-menu2" class="clearfix block block-bean span4">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/homepage-footer-menu2" typeof="">
+
+  <div class="content">
+    <div id="bean-stanford-postcard-full-group-s-postcard--2" class="postcard group-s-postcard field-group-div"><div id="bean-stanford-postcard-full-group-s-postcard-content--2" class="postcard-content group-s-postcard-content field-group-div"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h2>Resources</h2>
+<p><a href="/king-resources/documents" rel="nofollow">Documents</a></p>
+<p><a href="/king-resources/document-research-requests" rel="nofollow">Document Research Requests</a></p>
+<p><a href="/news/freedoms-ring-i-have-dream-speech" rel="nofollow">Freedom's Ring</a></p>
+<p><a href="http://okra.stanford.edu/">Online King Records Access</a></p>
+<p><a href="/publications/king-resources" rel="nofollow">King Institute Publications</a></p>
+<p><a href="/king-resources/recommended-readings" rel="nofollow">Recommended Readings</a></p>
+<p><a href="/liberation-curriculum" rel="nofollow">Liberation Curriculum</a></p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-homepage-footer-menu3" class="clearfix block block-bean span4">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/homepage-footer-menu3" typeof="">
+
+  <div class="content">
+    <div id="bean-stanford-postcard-full-group-s-postcard--3" class="postcard group-s-postcard field-group-div"><div id="bean-stanford-postcard-full-group-s-postcard-content--3" class="postcard-content group-s-postcard-content field-group-div"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h2>The Institute</h2>
+<p><a href="/news-events" rel="nofollow">News &amp; Events</a></p>
+<p><a href="/people/staff" rel="nofollow">Our Staff</a></p>
+<p><a href="/clayborne-carson" rel="nofollow">Clayborne Carson</a></p>
+<p><a href="/institute/our-supporters" rel="nofollow">Our Supporters</a></p>
+<p><a href="/institute/visit-institute" rel="nofollow">Visit the Institute</a></p>
+<p><a href="/institute/join-march" rel="nofollow">Make a Gift</a></p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-homepage-contact-block" class="clearfix block block-bean span8">       <div class="content"> <div class="entity entity-bean bean-stanford-large-block clearfix" about="/block/homepage-contact-block" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-large-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Cypress Hall D, 466 Via Ortega, Stanford, CA 94305-4146<br />
+	P: (650) 723-2092  |  F: (650) 723-2093  |  <a href="mailto:kinginstitute@stanford.edu" rel="nofollow">kinginstitute@stanford.edu</a>  |  <a href="http://campus-map.stanford.edu/">Campus Map</a></p>
+</div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-jumpstart-footer-social-media-0" class="clearfix block block-bean span2">       <div class="content"> <div class="entity entity-bean bean-stanford-social-media-connect clearfix" about="/block/jumpstart-footer-social-media--0" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-smc-facebook field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://www.facebook.com/KingInstitute">Facebook</a></div></div></div><div class="field field-name-field-s-smc-twitter field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://www.twitter.com/mlk_institute">Twitter</a></div></div></div>  </div>
+</div>
+ </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+      </div>
+</div>
+<!-- /#footer -->
+<div id="global-footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"><a href="http://www.stanford.edu"><img src="/sites/mlk/themes/stanford_framework/images/footer-stanford-logo@2x.png" alt="Stanford University"></a></div>
+      <div id="bottom-menu" class="span10">
+
+                  <ul class="top-links clearfix">
+                          <li><a href="https://www.stanford.edu">Stanford Home</a></li>
+                          <li><a href="https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+                          <li><a href="https://www.stanford.edu/search/">Search Stanford</a></li>
+                          <li><a href="https://emergency.stanford.edu/">Emergency Info</a></li>
+                      </ul>
+                  <ul class="bottom-links clearfix">
+                          <li><a href="https://www.stanford.edu/site/terms/" title="Terms of use for sites">Terms of Use</a></li>
+                          <li><a href="https://www.stanford.edu/site/privacy" title="Privacy and cookie policy">Privacy</a></li>
+                          <li><a href="https://uit.stanford.edu/security/copyright-infringement" title="Report alleged copyright infringement">Copyright</a></li>
+                          <li><a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" title="Report alleged copyright infringement">Trademarks</a></li>
+                          <li><a href="http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/" title="Report alleged copyright infringement">Non-Discrimination</a></li>
+                          <li><a href="https://www.stanford.edu/site/accessibility/" title="Report alleged copyright infringement">Accessibility</a></li>
+                      </ul>
+        
+        <p class="vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#global-footer -->
+  </body>
+
+</html>
