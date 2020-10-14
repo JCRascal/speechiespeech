@@ -10,6 +10,15 @@
 #          "https://www.presidency.ucsb.edu/documents/address-before-joint-session-the-congress-0",
 #          "https://www.presidency.ucsb.edu/documents/radio-and-television-remarks-upon-signing-the-civil-rights-bill")
 
+# Source documents taken from:
+#   kinginstitute.stanford.edu
+#   er.jsc.nasa.gov
+#   ourdocuments.gov
+#   americanrhetoric.com
+#   jfklibrary.org
+#   teachingamericanhistory.org
+#   presidency.ucsb.edu
+
 url <- c(system.file("speeches", "dream.txt", package = "speechiespeech"),
          system.file("speeches", "vietnam.txt", package = "speechiespeech"),
          system.file("speeches", "god_marching.txt", package = "speechiespeech"),
