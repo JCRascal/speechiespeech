@@ -1,0 +1,4610 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'html' -->
+<!-- FILE NAME SUGGESTIONS:
+   * html--node--13346.html.twig
+   * html--node--%.html.twig
+   * html--node.html.twig
+   x html.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/html.html.twig' -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TWV5WR');</script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WLMC86');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"239adb6e7e",applicationID:"73141606"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<meta name="description" content="Listen to the speech.    View related documents. 
+
+President John F. Kennedy
+Waldorf-Astoria Hotel, New York City
+April 27, 1961" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/jfkl/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/american-newspaper-publishers-association-19610427" />
+<link rel="canonical" href="https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/american-newspaper-publishers-association-19610427" />
+<link rel="shortlink" href="https://www.jfklibrary.org/node/13346" />
+<link rel="revision" href="https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/american-newspaper-publishers-association-19610427" />
+
+    <title>The President and the Press: Address before the American Newspaper Publishers Association, April 27, 1961 | JFK Library</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_pDKwN6hxfIJydPCsdagWRmewTsduXY-fVtmVeiLaNEg.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_gRrLz9L6VRaO5AXTlhD5DU-VoZvh_YeMgc3M0mNFFz0.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_NvHSZ6YFonFVwBJdRdV8FXdSEOJz7yoS8J8O6BOEIf4.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_4h7SBPKfm09hteVCWI00bKyAE92sUjLWLdEMUsk-N_w.css" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,300" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_goRPniT3ZgEXd9aYZmIY3dFXK5cuxguS673FKnA-NUY.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="//use.typekit.net/vkv2cvm.js"></script>
+<script src="/sites/default/files/js/js_coUtNHE6pFqdxL59kTHt-42tZSXCCpcpGdfFYJudYII.js"></script>
+<script src="//player.ooyala.com/core/a48c819bd98e456692f8d7db51f9d69b"></script>
+
+  </head>
+  <body class="path--node body-sidebars-first alias--archives-other-resources-john-f-kennedy-speeches-american-newspaper-publishers-association-19610427 nodetype--jfk_speech logged-out">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TWV5WR"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLMC86"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div id="skip">
+      <a class="visually-hidden focusable skip-link" href="#skip-link-anchor">
+        Skip past main navigation
+      </a>
+    </div>
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'off_canvas_page_wrapper' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/content/off-canvas-page-wrapper.html.twig' -->
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page' -->
+<!-- FILE NAME SUGGESTIONS:
+   * page--node--13346.html.twig
+   * page--node--%.html.twig
+   * page--node.html.twig
+   x page.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/page.html.twig' -->
+<div  class="page-standard" id="pg__c">
+
+
+    <header id="header">
+        <div class="header-mobile">
+            <div class="toggle-holder">
+                <button class="menu-toggle" aria-controls="block-footer-4" aria-expanded="false"><p class="words">Menu</p><span></span></button>
+            </div>
+            <a href="/" name="Home" title="Return to Home Page" class="home-button"></a>
+            <a href="/donate" class="donate">Donate</a>
+
+                            <div class="header-mobile-menu">
+                    <div class="mobile-top-objects">
+                        <div class="social">
+                            <a class="facebook" href="https://www.facebook.com/JFKLibrary/" alt="Like us on Facebook" title="Like us on Facebook">
+                                <i class="fa icon-facebook-square"></i></a>
+                            <a class="youtube" href="https://www.youtube.com/user/JFKLF" alt="Watch us on YouTube" title="Watch us on YouTube">
+                                <i class="fa icon-youtube-play"></i></a>
+                            <a class="twitter" href="https://www.twitter.com/jfklibrary" alt="Follow us on Twitter" title="Follow us on Twitter">
+                                <i class="fa icon-twitter"></i></a>
+                            <a class="instagram" href="https://www.instagram.com/jfklibrary/" alt="Find us on Instagram" title="Find us on Instagram">
+                                <i class="fa icon-instagram"></i></a>
+                        </div> <!-- / .social -->
+
+                        <form action="/search" class="mobile-top-search">
+                            <input type="text" name="search" aria-label="Search Terms" data-search-api-autocomplete-search="acquia_search" class="main-search-keywords form-autocomplete form-text ui-autocomplete-input" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=search" type="text" name="search" value="" size="30" maxlength="128" autocomplete="off" /><button type="submit" aria-label="Search Submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--header-mobile-menu.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-header-mobile-menu">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--footer-4.html.twig
+   * block--menu-block--mobile.html.twig
+   * block--menu-block--footer.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+<nav role="navigation" aria-labelledby="block-footer-4" id="block-footer-4" data-block-plugin-id="menu_block:footer" class="block block-menu navigation block-system-menublock menu--footer">
+      
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   x menu--mobile.html.twig
+   * menu--footer.html.twig
+   * menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--mobile.html.twig' -->
+
+
+<ul class="sf-menu">
+            
+                            <li>
+                    <a href="/learn" target="_self" class="heading" data-drupal-link-system-path="node/345056">Learn</a>
+                                            
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/node/345051" target="_self" class="sub-heading" data-drupal-link-system-path="node/345051">About JFK</a>
+                                            
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/learn/about-jfk/life-of-john-f-kennedy" data-drupal-link-system-path="node/4721">Life of John F. Kennedy</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/about-jfk/life-of-jacqueline-b-kennedy" data-drupal-link-system-path="node/4731">Life of Jacqueline B. Kennedy</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/about-jfk/jfk-in-history" data-drupal-link-system-path="node/4521">JFK in History</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/about-jfk/historic-speeches" target="_self" data-drupal-link-system-path="node/486">Historic Speeches</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/about-jfk/the-kennedy-family" data-drupal-link-system-path="node/4526">The Kennedy Family</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/about-jfk/media-galleries" target="_self" data-drupal-link-system-path="node/12496">Media Galleries</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/about-jfk/interactives" target="_self" data-drupal-link-system-path="node/50">Interactives</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/about-jfk/jfkl-from-home" data-drupal-link-system-path="node/366186">JFK Library From Home</a>
+                                    </li>
+            
+            </ul>
+        
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/education" target="_self" class="sub-heading" data-drupal-link-system-path="node/345096">Education</a>
+                                            
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/learn/education/teachers" target="_self" data-drupal-link-system-path="node/5051">Teachers</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/education/school-visits" target="_self" data-drupal-link-system-path="node/5276">School Visits</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/education/students" target="_self" data-drupal-link-system-path="node/5206">Students</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/education/profile-in-courage-essay-contest" target="_self" data-drupal-link-system-path="node/5211">Profile in Courage Essay Contest</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/education/adults" target="_self" data-drupal-link-system-path="node/5226">Adults</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/learn/education/families" target="_self" data-drupal-link-system-path="node/5236">Families</a>
+                                            
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/learn/about-jfk/interactives" target="_self" data-drupal-link-system-path="node/50">Interactives</a>
+                                    </li>
+            
+            </ul>
+        
+                                    </li>
+            
+            </ul>
+        
+                                    </li>
+            
+            </ul>
+        
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum" target="_self" class="heading" data-drupal-link-system-path="node/345091">Visit Museum</a>
+                                            
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/visit-museum/visit" target="_self" class="sub-heading" data-drupal-link-system-path="node/345271">Visit</a>
+                                            
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/visit-museum/visit/plan-your-trip" target="_self" data-drupal-link-system-path="node/12641">Plan Your Trip</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum/visit/walk-in-visitor-programs" target="_self" data-drupal-link-system-path="node/6661">Walk in Visitor Programs</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum/visit/museum-calendar" target="_self" rel="" data-drupal-link-system-path="node/90">Museum Calendar</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="https://store.jfklibrary.org/" target="_blank">Museum Store</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum/visit/host-an-event" target="_self" data-drupal-link-system-path="node/342196">Host an Event</a>
+                                    </li>
+            
+            </ul>
+        
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum/exhibits" target="_self" class="sub-heading" data-drupal-link-system-path="node/345276">Exhibits</a>
+                                            
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/visit-museum/exhibits/permanent-exhibits" target="_self" data-drupal-link-system-path="node/5336">Permanent Exhibits</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum/exhibits/special-exhibits" target="_self" data-drupal-link-system-path="node/5341">Special Exhibits</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum/exhibits/past-exhibits" target="_self" data-drupal-link-system-path="node/5346">Past Exhibits</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/visit-museum/exhibits/museum-artifacts" target="_self" data-drupal-link-system-path="node/18201">Museum Artifacts</a>
+                                    </li>
+            
+            </ul>
+        
+                                    </li>
+            
+            </ul>
+        
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/archives" target="_self" class="heading" data-drupal-link-system-path="node/345281">Archives</a>
+                                            
+    <ul class="sub-menu">
+                
+                                                
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/archives/about-archival-collections" target="_self" data-drupal-link-system-path="node/6671">About Archival Collections</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/archives/search-collections" target="_self" data-drupal-link-system-path="node/12771">Search Collections</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/archives/plan-a-research-visit" target="_self" data-drupal-link-system-path="node/6691">Plan a Research Visit</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/archives/research-support-services" target="_self" data-drupal-link-system-path="node/17666">Research Support Services</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/archives/other-resources" target="_self" data-drupal-link-system-path="node/17846">Other Resources</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/archives/research-fellowships-grants" target="_self" data-drupal-link-system-path="node/5601">Research Fellowships &amp; Grants</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/archives/ernest-hemingway-collection" target="_self" data-drupal-link-system-path="node/5596">Ernest Hemingway Collection</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="https://jfk.blogs.archives.gov/" target="_self" title="JFK Library Archives Blog: An Inside Look">JFK Library Archives Blog</a>
+                                    </li>
+            
+            </ul>
+        
+                            
+            </ul>
+        
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/events-and-awards" target="_self" class="heading" data-drupal-link-system-path="node/345076">Events &amp; Awards</a>
+                                            
+    <ul class="sub-menu">
+                
+                                                
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/events-and-awards/forums" target="_self" rel="" data-drupal-link-system-path="node/88">Forums</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/events-and-awards/celebrate-family-programming" target="_self" rel="" data-drupal-link-system-path="node/89">Celebrate! Family Programming</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/events-and-awards/profile-in-courage-award" target="_self" rel="" data-drupal-link-system-path="node/62">Profile in Courage Award</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/events-and-awards/new-frontier-award" target="_self" data-drupal-link-system-path="node/342191">New Frontier Award</a>
+                                    </li>
+            
+            </ul>
+        
+                            
+            </ul>
+        
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us" target="_self" class="heading" data-drupal-link-system-path="node/345286">About Us</a>
+                                            
+    <ul class="sub-menu">
+                
+                                                
+    <ul class="sub-menu">
+                
+                            <li>
+                    <a href="/about-us/about-the-jfk-library" target="_self" data-drupal-link-system-path="node/4511">About the JFK Library</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us/jfk-library-foundation" target="_self" data-drupal-link-system-path="node/18136">About the JFK Library Foundation</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us/news-and-press" target="_self" data-drupal-link-system-path="node/5241">News and Press</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us/join-and-support" target="_self" data-drupal-link-system-path="node/18036">Join and Support</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us/jobs-internships-volunteers" target="_self" data-drupal-link-system-path="node/4516">Jobs, Internships &amp; Volunteers</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us/social-media-apps" target="_self" data-drupal-link-system-path="node/4701">Social Media &amp; Apps</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us/contact-us" target="_self" data-drupal-link-system-path="node/4711">Contact Us</a>
+                                    </li>
+            
+        
+                            <li>
+                    <a href="/about-us/privacy-terms-of-use-accessibility" target="_self" data-drupal-link-system-path="node/4716">Privacy, Terms, Accessibility</a>
+                                    </li>
+            
+            </ul>
+        
+                            
+            </ul>
+        
+                                    </li>
+            
+            </ul>
+        
+
+
+
+
+
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--mobile.html.twig' -->
+
+
+  </nav>
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+                </div>
+                    </div>
+
+        <div class="header-top">
+
+            <div class="header-top-center">
+
+                            <div class="header-top-menu">
+                    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--header-top-menu.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-header-top-menu">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--jfkl-main-menu.html.twig
+   * block--system-menu-block--main.html.twig
+   x block--system-menu-block.html.twig
+   * block--system.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+<nav role="navigation" aria-labelledby="block-jfkl-main-menu" id="block-jfkl-main-menu" data-block-plugin-id="system_menu_block:main" class="block block-menu navigation block-system-menublock menu--main">
+      
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu__main' -->
+<!-- FILE NAME SUGGESTIONS:
+   x menu--main.html.twig
+   x menu--main.html.twig
+   * menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--main.html.twig' -->
+
+
+                            <ul class="sf-menu">
+        
+
+
+        
+            <li>
+            <a href="/about-us/privacy-terms-of-use-accessibility" target="_self" title="Test accessibility link description" aria-label="accessibility" data-drupal-link-system-path="node/4716">Accessibility</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/news-and-press" target="_self" aria-label="press" data-drupal-link-system-path="node/5241">Press</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="https://store.jfklibrary.org/" target="_self" aria-label="museum store">Museum Store</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--main.html.twig' -->
+
+
+  </nav>
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+                </div>
+            
+            <form action="/search" class="header-top-search">
+                <input type="text" name="search" aria-label="Search Terms" data-search-api-autocomplete-search="acquia_search" class="main-search-keywords form-autocomplete form-text ui-autocomplete-input" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=search" type="text" name="search" value="" size="30" maxlength="128" autocomplete="off"  /><button type="button" aria-label="Search Submit" id="siteSearchCommitHeader"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+            </form>
+
+                            <div class="header-top-translate">
+                    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--google-translate.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-google-translate">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--gtranslate.html.twig
+   * block--gtranslate-block.html.twig
+   * block--gtranslate.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div id="block-gtranslate" data-block-plugin-id="gtranslate_block" class="block block-gtranslate block-gtranslate-block">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'gtranslate' -->
+<!-- BEGIN OUTPUT from 'modules/contrib/gtranslate/templates/gtranslate.html.twig' -->
+
+<div class="gtranslate">
+<script type="text/javascript">
+/* <![CDATA[ */
+eval(unescape("eval%28function%28p%2Ca%2Cc%2Ck%2Ce%2Cr%29%7Be%3Dfunction%28c%29%7Breturn%28c%3Ca%3F%27%27%3Ae%28parseInt%28c/a%29%29%29+%28%28c%3Dc%25a%29%3E35%3FString.fromCharCode%28c+29%29%3Ac.toString%2836%29%29%7D%3Bif%28%21%27%27.replace%28/%5E/%2CString%29%29%7Bwhile%28c--%29r%5Be%28c%29%5D%3Dk%5Bc%5D%7C%7Ce%28c%29%3Bk%3D%5Bfunction%28e%29%7Breturn%20r%5Be%5D%7D%5D%3Be%3Dfunction%28%29%7Breturn%27%5C%5Cw+%27%7D%3Bc%3D1%7D%3Bwhile%28c--%29if%28k%5Bc%5D%29p%3Dp.replace%28new%20RegExp%28%27%5C%5Cb%27+e%28c%29+%27%5C%5Cb%27%2C%27g%27%29%2Ck%5Bc%5D%29%3Breturn%20p%7D%28%276%207%28a%2Cb%29%7Bn%7B4%282.9%29%7B3%20c%3D2.9%28%22o%22%29%3Bc.p%28b%2Cf%2Cf%29%3Ba.q%28c%29%7Dg%7B3%20c%3D2.r%28%29%3Ba.s%28%5C%27t%5C%27+b%2Cc%29%7D%7Du%28e%29%7B%7D%7D6%20h%28a%29%7B4%28a.8%29a%3Da.8%3B4%28a%3D%3D%5C%27%5C%27%29v%3B3%20b%3Da.w%28%5C%27%7C%5C%27%29%5B1%5D%3B3%20c%3B3%20d%3D2.x%28%5C%27y%5C%27%29%3Bz%283%20i%3D0%3Bi%3Cd.5%3Bi++%294%28d%5Bi%5D.A%3D%3D%5C%27B-C-D%5C%27%29c%3Dd%5Bi%5D%3B4%282.j%28%5C%27k%5C%27%29%3D%3DE%7C%7C2.j%28%5C%27k%5C%27%29.l.5%3D%3D0%7C%7Cc.5%3D%3D0%7C%7Cc.l.5%3D%3D0%29%7BF%286%28%29%7Bh%28a%29%7D%2CG%29%7Dg%7Bc.8%3Db%3B7%28c%2C%5C%27m%5C%27%29%3B7%28c%2C%5C%27m%5C%27%29%7D%7D%27%2C43%2C43%2C%27%7C%7Cdocument%7Cvar%7Cif%7Clength%7Cfunction%7CGTranslateFireEvent%7Cvalue%7CcreateEvent%7C%7C%7C%7C%7C%7Ctrue%7Celse%7CdoGTranslate%7C%7CgetElementById%7Cgoogle_translate_element2%7CinnerHTML%7Cchange%7Ctry%7CHTMLEvents%7CinitEvent%7CdispatchEvent%7CcreateEventObject%7CfireEvent%7Con%7Ccatch%7Creturn%7Csplit%7CgetElementsByTagName%7Cselect%7Cfor%7CclassName%7Cgoog%7Cte%7Ccombo%7Cnull%7CsetTimeout%7C500%27.split%28%27%7C%27%29%2C0%2C%7B%7D%29%29"))
+/* ]]> */
+</script><style type="text/css">
+<!--
+#goog-gt-tt {display:none !important;}
+
+.goog-te-banner-frame {display:none !important;}
+
+.goog-te-menu-value:hover {text-decoration:none !important;}
+
+body {top:0 !important;}
+
+#google_translate_element2 {display:none!important;}
+-->
+</style><div id="google_translate_element2"></div>
+<script type="text/javascript">function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element2');}</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en" style="font-weight:bold;background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;">English</option><option value="en|af" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;">Afrikaans</option><option value="en|sq" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;">Albanian</option><option value="en|ar" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;">Arabic</option><option value="en|hy" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;">Armenian</option><option value="en|az" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;">Azerbaijani</option><option value="en|eu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;">Basque</option><option value="en|be" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;">Belarusian</option><option value="en|bn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;">Bengali</option><option value="en|bs" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;">Bosnian</option><option value="en|bg" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;">Bulgarian</option><option value="en|ca" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;">Catalan</option><option value="en|ceb" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;">Cebuano</option><option value="en|zh-CN" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;">Chinese (Simplified)</option><option value="en|zh-TW" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;">Chinese (Traditional)</option><option value="en|hr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;">Croatian</option><option value="en|cs" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;">Czech</option><option value="en|da" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;">Danish</option><option value="en|nl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;">Dutch</option><option value="en|eo" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;">Esperanto</option><option value="en|et" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;">Estonian</option><option value="en|tl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;">Filipino</option><option value="en|fi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;">Finnish</option><option value="en|fr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;">French</option><option value="en|gl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;">Galician</option><option value="en|ka" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;">Georgian</option><option value="en|de" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;">German</option><option value="en|el" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;">Greek</option><option value="en|gu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;">Gujarati</option><option value="en|ht" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;">Haitian Creole</option><option value="en|ha" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;">Hausa</option><option value="en|iw" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;">Hebrew</option><option value="en|hi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;">Hindi</option><option value="en|hmn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;">Hmong</option><option value="en|hu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;">Hungarian</option><option value="en|is" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;">Icelandic</option><option value="en|ig" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;">Igbo</option><option value="en|id" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;">Indonesian</option><option value="en|ga" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;">Irish</option><option value="en|it" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;">Italian</option><option value="en|ja" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;">Japanese</option><option value="en|jw" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;">Javanese</option><option value="en|kn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;">Kannada</option><option value="en|km" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;">Khmer</option><option value="en|ko" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;">Korean</option><option value="en|lo" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;">Lao</option><option value="en|la" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;">Latin</option><option value="en|lv" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;">Latvian</option><option value="en|lt" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;">Lithuanian</option><option value="en|mk" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;">Macedonian</option><option value="en|ms" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;">Malay</option><option value="en|mt" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;">Maltese</option><option value="en|mi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;">Maori</option><option value="en|mr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;">Marathi</option><option value="en|mn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;">Mongolian</option><option value="en|ne" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;">Nepali</option><option value="en|no" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;">Norwegian</option><option value="en|fa" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;">Persian</option><option value="en|pl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;">Polish</option><option value="en|pt" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;">Portuguese</option><option value="en|pa" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;">Punjabi</option><option value="en|ro" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;">Romanian</option><option value="en|ru" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -336px;padding-left:18px;">Russian</option><option value="en|sr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;">Serbian</option><option value="en|sk" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;">Slovak</option><option value="en|sl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;">Slovenian</option><option value="en|so" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;">Somali</option><option value="en|es" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;">Spanish</option><option value="en|sw" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;">Swahili</option><option value="en|sv" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;">Swedish</option><option value="en|ta" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;">Tamil</option><option value="en|te" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;">Telugu</option><option value="en|th" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;">Thai</option><option value="en|tr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;">Turkish</option><option value="en|uk" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -528px;padding-left:18px;">Ukrainian</option><option value="en|ur" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;">Urdu</option><option value="en|vi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;">Vietnamese</option><option value="en|cy" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;">Welsh</option><option value="en|yi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;">Yiddish</option><option value="en|yo" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;">Yoruba</option><option value="en|zu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;">Zulu</option></select>
+</div>
+<!-- END OUTPUT from 'modules/contrib/gtranslate/templates/gtranslate.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+                </div>
+            
+            </div>
+
+        </div>
+
+        <div class="header-bottom">
+                            <div class="header-bottom-menu">
+                    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--header-bottom-menu.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-header-bottom-menu">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--footer.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block--footer.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+<nav role="navigation" aria-labelledby="block-footer" id="block-footer" data-block-plugin-id="menu_block:footer" class="block block-menu navigation block-system-menublock menu--footer">
+      
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   x menu--main.html.twig
+   * menu--footer.html.twig
+   * menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--main.html.twig' -->
+
+
+                            <ul class="sf-menu">
+        
+
+
+        
+            <li>
+            <a href="/learn" target="_self" class="heading" aria-label="learn" data-drupal-link-system-path="node/345056">Learn</a>
+
+                                                        <ul class="sub-menu" style="display:none;">
+        
+
+
+        
+            <li>
+            <strong>About JFK</strong>
+                                                        <ul class="subber-menu">
+        
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/life-of-john-f-kennedy" aria-label="life of john f. kennedy" data-drupal-link-system-path="node/4721">Life of John F. Kennedy</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/life-of-jacqueline-b-kennedy" aria-label="life of jacqueline b. kennedy" data-drupal-link-system-path="node/4731">Life of Jacqueline B. Kennedy</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/jfk-in-history" aria-label="jfk in history" data-drupal-link-system-path="node/4521">JFK in History</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/historic-speeches" target="_self" aria-label="historic speeches" data-drupal-link-system-path="node/486">Historic Speeches</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/the-kennedy-family" aria-label="the kennedy family" data-drupal-link-system-path="node/4526">The Kennedy Family</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/media-galleries" target="_self" aria-label="media galleries" data-drupal-link-system-path="node/12496">Media Galleries</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/interactives" target="_self" aria-label="interactives" data-drupal-link-system-path="node/50">Interactives</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/about-jfk/jfkl-from-home" aria-label="jfk library from home" data-drupal-link-system-path="node/366186">JFK Library From Home</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+                    </li>
+    
+
+
+
+        
+            <li>
+            <strong>Education</strong>
+                                                        <ul class="subber-menu">
+        
+
+
+        
+            <li>
+            <a href="/learn/education/teachers" target="_self" aria-label="teachers" data-drupal-link-system-path="node/5051">Teachers</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/education/school-visits" target="_self" aria-label="school visits" data-drupal-link-system-path="node/5276">School Visits</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/education/students" target="_self" aria-label="students" data-drupal-link-system-path="node/5206">Students</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/education/profile-in-courage-essay-contest" target="_self" aria-label="profile in courage essay contest" data-drupal-link-system-path="node/5211">Profile in Courage Essay Contest</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/education/adults" target="_self" aria-label="adults" data-drupal-link-system-path="node/5226">Adults</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/learn/education/families" target="_self" aria-label="families" data-drupal-link-system-path="node/5236">Families</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/visit-museum" target="_self" class="heading" aria-label="visit museum" data-drupal-link-system-path="node/345091">Visit Museum</a>
+
+                                                        <ul class="sub-menu" style="display:none;">
+        
+
+
+        
+            <li>
+            <strong>Visit</strong>
+                                                        <ul class="subber-menu">
+        
+
+
+        
+            <li>
+            <a href="/visit-museum/visit/plan-your-trip" target="_self" aria-label="plan your trip" data-drupal-link-system-path="node/12641">Plan Your Trip</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/visit-museum/visit/walk-in-visitor-programs" target="_self" aria-label="walk in visitor programs" data-drupal-link-system-path="node/6661">Walk in Visitor Programs</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/visit-museum/visit/museum-calendar" target="_self" rel="" aria-label="museum calendar" data-drupal-link-system-path="node/90">Museum Calendar</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="https://store.jfklibrary.org/" target="_blank" aria-label="museum store">Museum Store</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/visit-museum/visit/host-an-event" target="_self" aria-label="host an event" data-drupal-link-system-path="node/342196">Host an Event</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+                    </li>
+    
+
+
+
+        
+            <li>
+            <strong>Exhibits</strong>
+                                                        <ul class="subber-menu">
+        
+
+
+        
+            <li>
+            <a href="/visit-museum/exhibits/permanent-exhibits" target="_self" aria-label="permanent exhibits" data-drupal-link-system-path="node/5336">Permanent Exhibits</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/visit-museum/exhibits/special-exhibits" target="_self" aria-label="special exhibits" data-drupal-link-system-path="node/5341">Special Exhibits</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/visit-museum/exhibits/past-exhibits" target="_self" aria-label="past exhibits" data-drupal-link-system-path="node/5346">Past Exhibits</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/visit-museum/exhibits/museum-artifacts" target="_self" aria-label="museum artifacts" data-drupal-link-system-path="node/18201">Museum Artifacts</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/archives" target="_self" class="heading" aria-label="archives" data-drupal-link-system-path="node/345281">Archives</a>
+
+                                                        <ul class="sub-menu" style="display:none;">
+        
+
+
+        
+                                                    <ul class="subber-menu">
+        
+
+
+        
+            <li>
+            <a href="/archives/about-archival-collections" target="_self" aria-label="about archival collections" data-drupal-link-system-path="node/6671">About Archival Collections</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/archives/search-collections" target="_self" aria-label="search collections" data-drupal-link-system-path="node/12771">Search Collections</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/archives/plan-a-research-visit" target="_self" aria-label="plan a research visit" data-drupal-link-system-path="node/6691">Plan a Research Visit</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/archives/research-support-services" target="_self" aria-label="research support services" data-drupal-link-system-path="node/17666">Research Support Services</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/archives/other-resources" target="_self" aria-label="other resources" data-drupal-link-system-path="node/17846">Other Resources</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/archives/research-fellowships-grants" target="_self" aria-label="research fellowships &amp; grants" data-drupal-link-system-path="node/5601">Research Fellowships &amp; Grants</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/archives/ernest-hemingway-collection" target="_self" aria-label="ernest hemingway collection" data-drupal-link-system-path="node/5596">Ernest Hemingway Collection</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="https://jfk.blogs.archives.gov/" target="_self" title="JFK Library Archives Blog: An Inside Look" aria-label="jfk library archives blog">JFK Library Archives Blog</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+            
+
+
+
+                                            </ul>
+                    
+                    </li>
+        <li class="logo">
+            <a href="/">John F. Kennedy Presidential Library and Museum</a>
+        </li>
+    
+
+
+
+        
+            <li>
+            <a href="/events-and-awards" target="_self" class="heading" aria-label="events &amp; awards" data-drupal-link-system-path="node/345076">Events &amp; Awards</a>
+
+                                                        <ul class="sub-menu" style="display:none;">
+        
+
+
+        
+                                                    <ul class="subber-menu">
+        
+
+
+        
+            <li>
+            <a href="/events-and-awards/forums" target="_self" rel="" aria-label="forums" data-drupal-link-system-path="node/88">Forums</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/events-and-awards/celebrate-family-programming" target="_self" rel="" aria-label="celebrate! family programming" data-drupal-link-system-path="node/89">Celebrate! Family Programming</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/events-and-awards/profile-in-courage-award" target="_self" rel="" aria-label="profile in courage award" data-drupal-link-system-path="node/62">Profile in Courage Award</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/events-and-awards/new-frontier-award" target="_self" aria-label="new frontier award" data-drupal-link-system-path="node/342191">New Frontier Award</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+            
+
+
+
+                                            </ul>
+                    
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us" target="_self" class="heading" aria-label="about us" data-drupal-link-system-path="node/345286">About Us</a>
+
+                                                        <ul class="sub-menu" style="display:none;">
+        
+
+
+        
+                                                    <ul class="subber-menu">
+        
+
+
+        
+            <li>
+            <a href="/about-us/about-the-jfk-library" target="_self" aria-label="about the jfk library" data-drupal-link-system-path="node/4511">About the JFK Library</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/jfk-library-foundation" target="_self" aria-label="about the jfk library foundation" data-drupal-link-system-path="node/18136">About the JFK Library Foundation</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/news-and-press" target="_self" aria-label="news and press" data-drupal-link-system-path="node/5241">News and Press</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/join-and-support" target="_self" aria-label="join and support" data-drupal-link-system-path="node/18036">Join and Support</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/jobs-internships-volunteers" target="_self" aria-label="jobs, internships &amp; volunteers" data-drupal-link-system-path="node/4516">Jobs, Internships &amp; Volunteers</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/social-media-apps" target="_self" aria-label="social media &amp; apps" data-drupal-link-system-path="node/4701">Social Media &amp; Apps</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/contact-us" target="_self" aria-label="contact us" data-drupal-link-system-path="node/4711">Contact Us</a>
+
+                    </li>
+    
+
+
+
+        
+            <li>
+            <a href="/about-us/privacy-terms-of-use-accessibility" target="_self" aria-label="privacy, terms, accessibility" data-drupal-link-system-path="node/4716">Privacy, Terms, Accessibility</a>
+
+                    </li>
+    
+
+
+
+                                            </ul>
+                    
+            
+
+
+
+                                            </ul>
+                    
+                    </li>
+        <li class="donate"><a href="/donate">Donate</a></li>
+    
+
+
+
+                                            </ul>
+                    
+
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--main.html.twig' -->
+
+
+  </nav>
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+                </div>
+                    </div>
+
+    </header>
+
+    <div id="skip-link-anchor"></div>
+
+    <!-- ______________________ Closing Message _______________________ -->
+            <div class="clearfix closing-message" id="closing-message" style="display:none;">
+            
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--closing-message.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-closing-message">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--libraryclosedmessage.html.twig
+   * block--block-content--a97e89e2-5ce7-4145-a30d-a165c2aae41e.html.twig
+   * block--block-content.html.twig
+   * block--bundle--basic.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div id="block-libraryclosedmessage" data-block-plugin-id="block_content:a97e89e2-5ce7-4145-a30d-a165c2aae41e" class="block block-block-content block-block-contenta97e89e2-5ce7-4145-a30d-a165c2aae41e">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/field/field.html.twig' -->
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Due to the coronavirus public health emergency, the John&nbsp;F. Kennedy Presidential Library and Museum will be closed through December 31, 2020 and until further notice. <a href="/about-us/news-and-press/press-releases/jfk-library-employees-end-self-quarantine-with-no-symptoms">More information.</a></p>
+</div>
+      
+<!-- END OUTPUT from 'themes/contrib/cog/templates/field/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+            <a href="javascript:void(0);" id="aClosingMessage"><span>Dismiss</span><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+        </div>
+    
+
+    <!-- ______________________ Pre content _______________________ -->
+    
+            <div class="clearfix pre-content" id="pre-content">
+            <div class="cog--mq mq-precontent">
+                
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--pre-content.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-pre-content">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--jfkl-breadcrumbs.html.twig
+   * block--system-breadcrumb-block.html.twig
+   * block--system.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div id="block-jfkl-breadcrumbs" data-block-plugin-id="system_breadcrumb_block" class="block block-system block-system-breadcrumb-block">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'breadcrumb' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/navigation/breadcrumb.html.twig' -->
+  <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+          <li>
+                  <a href="/archives">Archives</a>
+              </li>
+          <li>
+                  <a href="/archives/other-resources">Other Resources</a>
+              </li>
+          <li>
+                  <a href="/archives/other-resources/john-f-kennedy-speeches">JFK Speeches</a>
+              </li>
+        </ol>
+  </nav>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/navigation/breadcrumb.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--views-block--modal-popup-block-block-1.html.twig
+   * block--views-block--modal-popup-block-block-1.html.twig
+   * block--views-block.html.twig
+   * block--views.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div class="views-element-container block block-views block-views-blockmodal-popup-block-block-1" id="block-views-block-modal-popup-block-block-1" data-block-plugin-id="views_block:modal_popup_block-block_1">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/container.html.twig' -->
+<div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/views/views-view.html.twig' -->
+<div class="view view-modal-popup-block view-id-modal_popup_block view-display-id-block_1 js-view-dom-id-0a8134ac61342b32bc0db752fc97bf601ea51e224a2613b51f60ab769923230b">
+  
+    
+      
+  
+          </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/views/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/container.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+            </div>
+        </div>
+      <!-- ______________________ MAIN _______________________ -->
+    
+                  <!-- /#content-header -->
+    
+    <!-- HOMEPAGE SECTIONS -->
+    <!-- HOME PAGE UPPER SECTION -->
+        <!-- HOME PAGE FLAG SECTION -->
+    
+    <!-- HOME PAGE LOWER SECTION -->
+    
+    
+    
+<div class="main-content-area-two-part clearfix">
+    
+    
+    
+    <!-- CONTENT -->
+            <div id="primary"  class="content-area" id="pg__c">
+            <main id="main" class="site-main" role="main">
+                  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--content.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-content">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--jfkl-page-title.html.twig
+   * block--page-title-block.html.twig
+   * block--core.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div id="block-jfkl-page-title" data-block-plugin-id="page_title_block" class="block block-core block-page-title-block">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page_title' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/content/page-title.html.twig' -->
+
+  <h1>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--node--title--jfk-speech.html.twig
+   x field--node--title.html.twig
+   * field--node--jfk-speech.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/field/field--node--title.html.twig' -->
+<span>The President and the Press: Address before the American Newspaper Publishers Association, April 27, 1961</span>
+
+<!-- END OUTPUT from 'core/themes/stable/templates/field/field--node--title.html.twig' -->
+
+</h1>
+
+
+<!-- END OUTPUT from 'core/themes/stable/templates/content/page-title.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--jfkl-messages.html.twig
+   x block--system-messages-block.html.twig
+   * block--system.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/block/block--system-messages-block.html.twig' -->
+<div data-drupal-messages-fallback class="hidden"></div>
+
+<!-- END OUTPUT from 'core/themes/stable/templates/block/block--system-messages-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--jfkl-content.html.twig
+   * block--system-main-block.html.twig
+   * block--system.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div id="block-jfkl-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'node' -->
+<!-- FILE NAME SUGGESTIONS:
+   * node--13346--full.html.twig
+   * node--13346.html.twig
+   x node--jfk-speech--full.html.twig
+   * node--jfk-speech.html.twig
+   * node--full.html.twig
+   * node.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/nodes/node--jfk-speech--full.html.twig' -->
+
+<article class="entry-content">
+
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--node--body--jfk-speech.html.twig
+   * field--node--body.html.twig
+   * field--node--jfk-speech.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/field/field.html.twig' -->
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em>Listen to the speech<strong>.</strong></em> <a href="/asset-viewer/archives/JFKWHA/1961/JFKWHA-025-001/JFKWHA-025-001"><img alt="Audio" data-entity-type="" data-entity-uuid="" src="/themes/custom/jfkl/images/audio.gif?w=33&amp;h=31&amp;as=1" /></a>   <em>View related documents.</em> <a href="/asset-viewer/archives/JFKPOF/034/JFKPOF-034-021"><img alt="Folder" data-entity-type="" data-entity-uuid="" src="/themes/custom/jfkl/images/folder.gif?w=35&amp;h=26&amp;as=1" /></a></p>
+
+<p><strong>President John F. Kennedy<br />
+Waldorf-Astoria Hotel, New York City<br />
+April 27, 1961</strong></p>
+
+<p>Mr. Chairman, ladies and gentlemen:</p>
+
+<p>I appreciate very much your generous invitation to be here tonight.</p>
+
+<p>You bear heavy responsibilities these days and an article I read some time ago reminded me of how particularly heavily the burdens of present day events bear upon your profession.</p>
+
+<p>You may remember that in 1851 the New York Herald Tribune under the sponsorship and publishing of Horace Greeley, employed as its London correspondent an obscure journalist by the name of Karl Marx.</p>
+
+<p>We are told that foreign correspondent Marx, stone broke, and with a family ill and undernourished, constantly appealed to Greeley and managing editor Charles Dana for an increase in his munificent salary of $5 per installment, a salary which he and Engels ungratefully labeled as the "lousiest petty bourgeois cheating."</p>
+
+<p>But when all his financial appeals were refused, Marx looked around for other means of livelihood and fame, eventually terminating his relationship with the Tribune and devoting his talents full time to the cause that would bequeath the world the seeds of Leninism, Stalinism, revolution and the cold war.</p>
+
+<p>If only this capitalistic New York newspaper had treated him more kindly; if only Marx had remained a foreign correspondent, history might have been different. And I hope all publishers will bear this lesson in mind the next time they receive a poverty-stricken appeal for a small increase in the expense account from an obscure newspaper man.</p>
+
+<p>I have selected as the title of my remarks tonight "The President and the Press." Some may suggest that this would be more naturally worded "The President Versus the Press." But those are not my sentiments tonight.</p>
+
+<p>It is true, however, that when a well-known diplomat from another country demanded recently that our State Department repudiate certain newspaper attacks on his colleague it was unnecessary for us to reply that this Administration was not responsible for the press, for the press had already made it clear that it was not responsible for this Administration.</p>
+
+<p>Nevertheless, my purpose here tonight is not to deliver the usual assault on the so-called one party press. On the contrary, in recent months I have rarely heard any complaints about political bias in the press except from a few Republicans. Nor is it my purpose tonight to discuss or defend the televising of Presidential press conferences. I think it is highly beneficial to have some 20,000,000 Americans regularly sit in on these conferences to observe, if I may say so, the incisive, the intelligent and the courteous qualities displayed by your Washington correspondents.</p>
+
+<p>Nor, finally, are these remarks intended to examine the proper degree of privacy which the press should allow to any President and his family.</p>
+
+<p>If in the last few months your White House reporters and photographers have been attending church services with regularity, that has surely done them no harm.</p>
+
+<p>On the other hand, I realize that your staff and wire service photographers may be complaining that they do not enjoy the same green privileges at the local golf courses that they once did.</p>
+
+<p>It is true that my predecessor did not object as I do to pictures of one's golfing skill in action. But neither on the other hand did he ever bean a Secret Service man.</p>
+
+<p>My topic tonight is a more sober one of concern to publishers as well as editors.</p>
+
+<p>I want to talk about our common responsibilities in the face of a common danger. The events of recent weeks may have helped to illuminate that challenge for some; but the dimensions of its threat have loomed large on the horizon for many years. Whatever our hopes may be for the future--for reducing this threat or living with it--there is no escaping either the gravity or the totality of its challenge to our survival and to our security--a challenge that confronts us in unaccustomed ways in every sphere of human activity.</p>
+
+<p>This deadly challenge imposes upon our society two requirements of direct concern both to the press and to the President--two requirements that may seem almost contradictory in tone, but which must be reconciled and fulfilled if we are to meet this national peril. I refer, first, to the need for a far greater public information; and, second, to the need for far greater official secrecy.</p>
+
+<p><strong>I</strong></p>
+
+<p>The very word "secrecy" is repugnant in a free and open society; and we are as a people inherently and historically opposed to secret societies, to secret oaths and to secret proceedings. We decided long ago that the dangers of excessive and unwarranted concealment of pertinent facts far outweighed the dangers which are cited to justify it. Even today, there is little value in opposing the threat of a closed society by imitating its arbitrary restrictions. Even today, there is little value in insuring the survival of our nation if our traditions do not survive with it. And there is very grave danger that an announced need for increased security will be seized upon by those anxious to expand its meaning to the very limits of official censorship and concealment. That I do not intend to permit to the extent that it is in my control. And no official of my Administration, whether his rank is high or low, civilian or military, should interpret my words here tonight as an excuse to censor the news, to stifle dissent, to cover up our mistakes or to withhold from the press and the public the facts they deserve to know.</p>
+
+<p>But I do ask every publisher, every editor, and every newsman in the nation to reexamine his own standards, and to recognize the nature of our country's peril. In time of war, the government and the press have customarily joined in an effort based largely on self-discipline, to prevent unauthorized disclosures to the enemy. In time of "clear and present danger," the courts have held that even the privileged rights of the First Amendment must yield to the public's need for national security.</p>
+
+<p>Today no war has been declared--and however fierce the struggle may be, it may never be declared in the traditional fashion. Our way of life is under attack. Those who make themselves our enemy are advancing around the globe. The survival of our friends is in danger. And yet no war has been declared, no borders have been crossed by marching troops, no missiles have been fired.</p>
+
+<p>If the press is awaiting a declaration of war before it imposes the self-discipline of combat conditions, then I can only say that no war ever posed a greater threat to our security. If you are awaiting a finding of "clear and present danger," then I can only say that the danger has never been more clear and its presence has never been more imminent.</p>
+
+<p>It requires a change in outlook, a change in tactics, a change in missions--by the government, by the people, by every businessman or labor leader, and by every newspaper. For we are opposed around the world by a monolithic and ruthless conspiracy that relies primarily on covert means for expanding its sphere of influence--on infiltration instead of invasion, on subversion instead of elections, on intimidation instead of free choice, on guerrillas by night instead of armies by day. It is a system which has conscripted vast human and material resources into the building of a tightly knit, highly efficient machine that combines military, diplomatic, intelligence, economic, scientific and political operations.</p>
+
+<p>Its preparations are concealed, not published. Its mistakes are buried, not headlined. Its dissenters are silenced, not praised. No expenditure is questioned, no rumor is printed, no secret is revealed. It conducts the Cold War, in short, with a war-time discipline no democracy would ever hope or wish to match.</p>
+
+<p>Nevertheless, every democracy recognizes the necessary restraints of national security--and the question remains whether those restraints need to be more strictly observed if we are to oppose this kind of attack as well as outright invasion.</p>
+
+<p>For the facts of the matter are that this nation's foes have openly boasted of acquiring through our newspapers information they would otherwise hire agents to acquire through theft, bribery or espionage; that details of this nation's covert preparations to counter the enemy's covert operations have been available to every newspaper reader, friend and foe alike; that the size, the strength, the location and the nature of our forces and weapons, and our plans and strategy for their use, have all been pinpointed in the press and other news media to a degree sufficient to satisfy any foreign power; and that, in at least in one case, the publication of details concerning a secret mechanism whereby satellites were followed required its alteration at the expense of considerable time and money.</p>
+
+<p>The newspapers which printed these stories were loyal, patriotic, responsible and well-meaning. Had we been engaged in open warfare, they undoubtedly would not have published such items. But in the absence of open warfare, they recognized only the tests of journalism and not the tests of national security. And my question tonight is whether additional tests should not now be adopted.</p>
+
+<p>The question is for you alone to answer. No public official should answer it for you. No governmental plan should impose its restraints against your will. But I would be failing in my duty to the nation, in considering all of the responsibilities that we now bear and all of the means at hand to meet those responsibilities, if I did not commend this problem to your attention, and urge its thoughtful consideration.</p>
+
+<p>On many earlier occasions, I have said--and your newspapers have constantly said--that these are times that appeal to every citizen's sense of sacrifice and self-discipline. They call out to every citizen to weigh his rights and comforts against his obligations to the common good. I cannot now believe that those citizens who serve in the newspaper business consider themselves exempt from that appeal.</p>
+
+<p>I have no intention of establishing a new Office of War Information to govern the flow of news. I am not suggesting any new forms of censorship or any new types of security classifications. I have no easy answer to the dilemma that I have posed, and would not seek to impose it if I had one. But I am asking the members of the newspaper profession and the industry in this country to reexamine their own responsibilities, to consider the degree and the nature of the present danger, and to heed the duty of self-restraint which that danger imposes upon us all.</p>
+
+<p>Every newspaper now asks itself, with respect to every story: "Is it news?" All I suggest is that you add the question: "Is it in the interest of the national security?" And I hope that every group in America--unions and businessmen and public officials at every level-- will ask the same question of their endeavors, and subject their actions to the same exacting tests.</p>
+
+<p>And should the press of America consider and recommend the voluntary assumption of specific new steps or machinery, I can assure you that we will cooperate whole-heartedly with those recommendations.</p>
+
+<p>Perhaps there will be no recommendations. Perhaps there is no answer to the dilemma faced by a free and open society in a cold and secret war. In times of peace, any discussion of this subject, and any action that results, are both painful and without precedent. But this is a time of peace and peril which knows no precedent in history.</p>
+
+<p><strong>II</strong></p>
+
+<p>It is the unprecedented nature of this challenge that also gives rise to your second obligation--an obligation which I share. And that is our obligation to inform and alert the American people--to make certain that they possess all the facts that they need, and understand them as well--the perils, the prospects, the purposes of our program and the choices that we face.</p>
+
+<p>No President should fear public scrutiny of his program. For from that scrutiny comes understanding; and from that understanding comes support or opposition. And both are necessary. I am not asking your newspapers to support the Administration, but I am asking your help in the tremendous task of informing and alerting the American people. For I have complete confidence in the response and dedication of our citizens whenever they are fully informed.</p>
+
+<p>I not only could not stifle controversy among your readers--I welcome it. This Administration intends to be candid about its errors; for as a wise man once said: "An error does not become a mistake until you refuse to correct it." We intend to accept full responsibility for our errors; and we expect you to point them out when we miss them.</p>
+
+<p>Without debate, without criticism, no Administration and no country can succeed--and no republic can survive. That is why the Athenian lawmaker Solon decreed it a crime for any citizen to shrink from controversy. And that is why our press was protected by the First Amendment-- the only business in America specifically protected by the Constitution- -not primarily to amuse and entertain, not to emphasize the trivial and the sentimental, not to simply "give the public what it wants"--but to inform, to arouse, to reflect, to state our dangers and our opportunities, to indicate our crises and our choices, to lead, mold, educate and sometimes even anger public opinion.</p>
+
+<p>This means greater coverage and analysis of international news--for it is no longer far away and foreign but close at hand and local. It means greater attention to improved understanding of the news as well as improved transmission. And it means, finally, that government at all levels, must meet its obligation to provide you with the fullest possible information outside the narrowest limits of national security--and we intend to do it.</p>
+
+<p><strong>III</strong></p>
+
+<p>It was early in the Seventeenth Century that Francis Bacon remarked on three recent inventions already transforming the world: the compass, gunpowder and the printing press. Now the links between the nations first forged by the compass have made us all citizens of the world, the hopes and threats of one becoming the hopes and threats of us all. In that one world's efforts to live together, the evolution of gunpowder to its ultimate limit has warned mankind of the terrible consequences of failure.</p>
+
+<p>And so it is to the printing press--to the recorder of man's deeds, the keeper of his conscience, the courier of his news--that we look for strength and assistance, confident that with your help man will be what he was born to be: free and independent.</p></div>
+      
+<!-- END OUTPUT from 'themes/contrib/cog/templates/field/field.html.twig' -->
+
+
+
+    <!-- /content -->
+
+</article>
+<!-- /article #node -->
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/nodes/node--jfk-speech--full.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+            </main> <!-- / .site-main -->
+        </div> <!-- / .content-area -->
+    
+    <!-- /sidebar-first -->
+    
+        
+            <aside id="secondary" class="sidebar" role="complementary">
+                                
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--sidebar-first.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-sidebar-first">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--researchtree-5.html.twig
+   * block--menu-block--speeches-tree.html.twig
+   * block--menu-block--research-tree.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+<nav role="navigation" aria-labelledby="block-researchtree-5" id="block-researchtree-5" data-block-plugin-id="menu_block:research-tree" class="block block-menu navigation block-system-menublock menu--research-tree">
+      
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   * menu--speeches-tree.html.twig
+   * menu--research-tree.html.twig
+   * menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--speeches_tree.html.twig' -->
+
+
+<div id="sidebar-nav">
+                                <ul class="menu">
+                                                                                                                            <ul class="menu ">
+                                                                                                                            <ul class="menu has-children">
+                                                                                                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                                    <ul class="menu has-children">
+                                                                                                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                                    <ul class="menu has-children">
+                                                                                                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                                    <ul class="menu has-children">
+                                            
+                            <li >
+                                <a href="http://jfklibrary.libguides.com/introduction/subject_guides" target="_self">Research Guides by Subject</a>
+                            </li>
+                    
+
+
+                                    
+                            <li class="has-children">
+                                <a href="/archives/other-resources/john-f-kennedy-speeches" target="_self" data-drupal-link-system-path="archives/other-resources/john-f-kennedy-speeches">John F. Kennedy: Speeches</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="/archives/other-resources/john-f-kennedy-press-conferences" target="_self" data-drupal-link-system-path="archives/other-resources/john-f-kennedy-press-conferences">John F. Kennedy: Press Conferences</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="https://www.historypin.org/en/jfk-1960/geo/36.949892,-96.94336,3/bounds/-1.58183,-132.363282,62.754726,-61.523438" target="_self">Historypin</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="https://www.goodreads.com/user/show/30412750-john-f-kennedy-presidential-library" target="_self">Goodreads</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="https://www.archives.gov/research/catalog" target="_self">NARA Catalog</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="/archives/other-resources/national-security-action-memoranda-nsams" data-drupal-link-system-path="node/18196">National Security Action Memoranda (NSAMs)</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="https://www.archives.gov/federal-register/executive-orders" target="_self">John F. Kennedy: Executive Orders</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="/archives/other-resources/legislative-summary" data-drupal-link-system-path="node/17791">Legislative Summary</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="https://www.archives.gov/research/jfk" target="_self">JFK Assassination Records Collection</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="https://vault.fbi.gov/" target="_self">Federal Bureau of Investigation (FBI) Files: The Vault</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="https://history.state.gov/historicaldocuments/kennedy" target="_blank">Foreign Relations of the US (FRUS)</a>
+                            </li>
+                    
+
+
+                                    
+                            <li >
+                                <a href="http://www.presidency.ucsb.edu/ws/" target="_self">University of California: Public Papers of the Presidents</a>
+                            </li>
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                                    <ul class="menu has-children">
+                                                                                                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                                    <ul class="menu has-children">
+                                                                                                                            <ul class="menu has-children">
+                                                                                                                    </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                                    <ul class="menu has-children">
+                                                                                                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                                                                                            </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+                        
+                    
+
+
+                                    </ul>
+    
+
+    </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--speeches_tree.html.twig' -->
+
+
+  </nav>
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+
+                
+            </aside><!-- .sidebar -->
+        
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+  <!-- ______________________ Post content _______________________ -->
+
+      <div class="clearfix post-content" id="post-content" style="display:none;">
+      <div class="cog--mq mq-postcontent">
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--post-content.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-post-content">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--exposedformacquia-searchpage.html.twig
+   * block--views-exposed-filter-block--acquia-search-page.html.twig
+   * block--views-exposed-filter-block.html.twig
+   * block--views.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div class="views-exposed-form block block-views block-views-exposed-filter-blockacquia-search-page" data-drupal-selector="views-exposed-form-acquia-search-page" id="block-exposedformacquia-searchpage" data-block-plugin-id="views_exposed_filter_block:acquia_search-page">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form.html.twig' -->
+<form action="/search" method="get" id="views-exposed-form-acquia-search-page" accept-charset="UTF-8">
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_exposed_form' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/views/views-exposed-form.html.twig' -->
+<div class="form--inline clearfix">
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-search form-item-search">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-search">Search</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-search" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=search" type="text" id="edit-search" name="search" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-identifier-accession form-item-field-identifier-accession">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-identifier-accession">Identifier Accession</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-identifier-accession" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_identifier_accession" type="text" id="edit-field-identifier-accession" name="field_identifier_accession" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-rights-access-status form-item-field-rights-access-status">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-rights-access-status">Rights Access Status</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-rights-access-status" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_rights_access_status" type="text" id="edit-field-rights-access-status" name="field_rights_access_status" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-relation-is-part-of-desc form-item-field-relation-is-part-of-desc">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-relation-is-part-of-desc">Relation Is Part Of Desc</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-relation-is-part-of-desc" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_relation_is_part_of_desc" type="text" id="edit-field-relation-is-part-of-desc" name="field_relation_is_part_of_desc" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-subject-geog form-item-field-subject-geog">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-subject-geog">Subject Geog</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-subject-geog" type="text" id="edit-field-subject-geog" name="field_subject_geog" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-type-category form-item-field-type-category">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-type-category">Type Category</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-type-category" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_type_category" type="text" id="edit-field-type-category" name="field_type_category" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-format-medium form-item-field-format-medium">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-format-medium">Format Medium</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-format-medium" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_format_medium" type="text" id="edit-field-format-medium" name="field_format_medium" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-format-media-type form-item-field-format-media-type">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-format-media-type">Format Media Type</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-format-media-type" type="text" id="edit-field-format-media-type" name="field_format_media_type" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-creator-maker form-item-field-creator-maker">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-creator-maker">Creator Maker</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-creator-maker" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_creator_maker" type="text" id="edit-field-creator-maker" name="field_creator_maker" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-language-iso639-2 form-item-field-language-iso639-2">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-language-iso639-2">Language ISO639-2</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-language-iso639-2" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_language_iso639_2" type="text" id="edit-field-language-iso639-2" name="field_language_iso639_2" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-type-arc form-item-field-type-arc">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-type-arc">Type ARC</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-type-arc" type="text" id="edit-field-type-arc" name="field_type_arc" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-title-folder form-item-field-title-folder">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-title-folder">Title Folder</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-title-folder" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_title_folder" type="text" id="edit-field-title-folder" name="field_title_folder" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-format form-item-field-format">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-format">Format</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-format" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_format" type="text" id="edit-field-format" name="field_format" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-description form-item-field-description">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-description">Description</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-description" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_description" type="text" id="edit-field-description" name="field_description" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-rights-copyright-status form-item-field-rights-copyright-status">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-rights-copyright-status">Rights Copyright Status</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-rights-copyright-status" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_rights_copyright_status" type="text" id="edit-field-rights-copyright-status" name="field_rights_copyright_status" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-relation-container-digid form-item-field-relation-container-digid">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-relation-container-digid">Relation Container Digid</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-relation-container-digid" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_relation_container_digid" type="text" id="edit-field-relation-container-digid" name="field_relation_container_digid" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-rights-access-restrictions form-item-field-rights-access-restrictions">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-rights-access-restrictions">Rights Access Restrictions</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-rights-access-restrictions" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_rights_access_restrictions" type="text" id="edit-field-rights-access-restrictions" name="field_rights_access_restrictions" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-rights-access-restriction- form-item-field-rights-access-restriction-">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-rights-access-restriction-">Rights Access Restriction Note</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-rights-access-restriction-" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_rights_access_restriction_" type="text" id="edit-field-rights-access-restriction-" name="field_rights_access_restriction_" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-relation-is-part-of-subser form-item-field-relation-is-part-of-subser">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-relation-is-part-of-subser">Subseries Name</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-relation-is-part-of-subser" type="text" id="edit-field-relation-is-part-of-subser" name="field_relation_is_part_of_subser" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-source form-item-field-source">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-source">Source</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-source" type="text" id="edit-field-source" name="field_source" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-relation-is-part-of-series form-item-field-relation-is-part-of-series">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-relation-is-part-of-series">Series Name</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-relation-is-part-of-series" type="text" id="edit-field-relation-is-part-of-series" name="field_relation_is_part_of_series" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-contributor form-item-field-contributor">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-contributor">Contributor</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-contributor" type="text" id="edit-field-contributor" name="field_contributor" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-description-historical-not form-item-field-description-historical-not">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-description-historical-not">Description Historical Note</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-description-historical-not" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_description_historical_not" type="text" id="edit-field-description-historical-not" name="field_description_historical_not" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-subject-organization form-item-field-subject-organization">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-subject-organization">Subject Organization</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-subject-organization" type="text" id="edit-field-subject-organization" name="field_subject_organization" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-subject-person form-item-field-subject-person">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-subject-person">Subject Person</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-subject-person" type="text" id="edit-field-subject-person" name="field_subject_person" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-subject-da form-item-field-subject-da">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-subject-da">Subject</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-subject-da" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_subject_da" type="text" id="edit-field-subject-da" name="field_subject_da" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-end-date form-item-field-end-date">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-end-date">End Date</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-end-date" type="text" id="edit-field-end-date" name="field_end_date" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-start-date form-item-field-start-date">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-start-date">Start Date</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-start-date" type="text" id="edit-field-start-date" name="field_start_date" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-subject-geog-1 form-item-field-subject-geog-1">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-subject-geog-1">Subject Geog Full Text</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-subject-geog-1" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_subject_geog_1" type="text" id="edit-field-subject-geog-1" name="field_subject_geog_1" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-description-place-made form-item-field-description-place-made">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-description-place-made">Description Place Made</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-description-place-made" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_description_place_made" type="text" id="edit-field-description-place-made" name="field_description_place_made" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-provenance-gifter form-item-field-provenance-gifter">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-provenance-gifter">Provenance Gifter</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-provenance-gifter" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_provenance_gifter" type="text" id="edit-field-provenance-gifter" name="field_provenance_gifter" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-title-item-name form-item-field-title-item-name">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-title-item-name">Title Item Name</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-title-item-name" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_title_item_name" type="text" id="edit-field-title-item-name" name="field_title_item_name" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-source-1 form-item-field-source-1">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-source-1">Source Full Text</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-source-1" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_source_1" type="text" id="edit-field-source-1" name="field_source_1" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-contributor-1 form-item-field-contributor-1">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-contributor-1">Contributor Full Text</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-contributor-1" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_contributor_1" type="text" id="edit-field-contributor-1" name="field_contributor_1" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-subject-organization-1 form-item-field-subject-organization-1">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-subject-organization-1">Subject Organization Full Text</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-subject-organization-1" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_subject_organization_1" type="text" id="edit-field-subject-organization-1" name="field_subject_organization_1" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-subject-person-1 form-item-field-subject-person-1">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-subject-person-1">Subject Person Full Text</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-subject-person-1" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_subject_person_1" type="text" id="edit-field-subject-person-1" name="field_subject_person_1" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-field-relation-is-part-of-subser-1 form-item-field-relation-is-part-of-subser-1">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-relation-is-part-of-subser-1">Relation Is Part Of Subseries Full Text</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-relation-is-part-of-subser-1" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=field_relation_is_part_of_subser_1" type="text" id="edit-field-relation-is-part-of-subser-1" name="field_relation_is_part_of_subser_1" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-type-dctm-object form-item-field-type-dctm-object">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-field-type-dctm-object">Object Type</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-field-type-dctm-object" type="text" id="edit-field-type-dctm-object" name="field_type_dctm_object" value="" size="30" maxlength="128" class="form-text" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-title form-item-title">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-title">Title</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-title" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=title" type="text" id="edit-title" name="title" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-rendered-item form-item-rendered-item">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-rendered-item">Rendered HTML output</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__textfield' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--textfield.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-rendered-item" data-search-api-autocomplete-search="acquia_search" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/acquia_search?display=page&amp;&amp;filter=rendered_item" type="text" id="edit-rendered-item" name="rendered_item" value="" size="30" maxlength="128" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-sort-by form-item-sort-by">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-sort-by">Sort by</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'select' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/select.html.twig' -->
+<select data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by" class="form-select"><option value="search_api_relevance" selected="selected">Relevance</option><option value="aggregated_title">Aggregated Title</option><option value="sort_title">Sort Title</option><option value="field_type_dctm_object">Object Type</option><option value="field_start_date">Start Date</option><option value="field_end_date">End Date</option></select>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/select.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-sort-order form-item-sort-order">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-sort-order">Order</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'select' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/select.html.twig' -->
+<select data-drupal-selector="edit-sort-order" id="edit-sort-order" name="sort_order" class="form-select"><option value="ASC">Asc</option><option value="DESC" selected="selected">Desc</option></select>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/select.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-items-per-page form-item-items-per-page">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+<label for="edit-items-per-page">Items per page</label>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'select' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/select.html.twig' -->
+<select data-drupal-selector="edit-items-per-page" id="edit-items-per-page" name="items_per_page" class="form-select"><option value="10">10</option><option value="25" selected="selected">25</option><option value="50">50</option><option value="100">100</option></select>
+<!-- END OUTPUT from 'core/themes/stable/templates/form/select.html.twig' -->
+
+
+        </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/container.html.twig' -->
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__submit' -->
+<!-- FILE NAME SUGGESTIONS:
+   * input--submit.html.twig
+   x input.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-submit-acquia-search" type="submit" id="edit-submit-acquia-search" value="Search" class="button js-form-submit form-submit" />
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/input.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/themes/stable/templates/form/container.html.twig' -->
+
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/views/views-exposed-form.html.twig' -->
+
+
+</form>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/form/form.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+      </div>
+    </div>
+  
+
+  <!-- ______________________ FOOTER _______________________ -->
+
+        <footer id="footer" class="site-footer">
+
+          <div class="container">
+              
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--footer.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+  <div class="region region-footer">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--footermuseuminfo.html.twig
+   * block--block-content--98e9a331-691d-4000-9c8f-4253df614cd5.html.twig
+   * block--block-content.html.twig
+   * block--bundle--basic.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+<div id="block-footermuseuminfo" data-block-plugin-id="block_content:98e9a331-691d-4000-9c8f-4253df614cd5" class="block block-block-content block-block-content98e9a331-691d-4000-9c8f-4253df614cd5">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/field/field.html.twig' -->
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="site-info">
+<h2 class="ft-logo img-replace">John F. Kennedy Presidential Library and Museum</h2>
+
+<address>
+<div class="name"><span>John F. Kennedy</span> <span>Presidential Library</span> <span>and Museum</span></div>
+
+<div class="address"><span class="add1">Columbia Point</span> <span class="add2">Boston MA 02125</span></div>
+<span class="tel"><a href="tel:(617) 514-1600">(617) 514-1600</a></span></address>
+
+<p><strong>Open 7 Days 9 am - 5 pm</strong></p>
+
+<div class="social"><a class="facebook" href="https://www.facebook.com/JFKLibrary/" title="Like us on Facebook"><em class="fa icon-facebook"><span>.</span></em></a> <a class="youtube" href="https://www.youtube.com/user/JFKLF" title="Watch us on YouTube"><em class="fa icon-youtube-play"><span>.</span></em></a> <a class="twitter" href="https://www.twitter.com/jfklibrary" title="Follow us on Twitter"><em class="fa icon-twitter"><span>.</span></em></a> <a class="instagram" href="https://www.instagram.com/jfklibrary/" title="Find us on Instagram"><em class="fa icon-instagram"><span>.</span></em></a></div>
+
+
+<hr />
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'entity_embed_container' -->
+<!-- BEGIN OUTPUT from 'modules/contrib/entity_embed/templates/entity-embed-container.html.twig' -->
+<div alt="National Archives" data-embed-button="media_browser" data-entity-embed-display="media_image" data-entity-embed-display-settings="https://www.archives.gov/" data-entity-type="media" data-entity-uuid="2428a2e6-dea3-4b3a-aa09-15ed32c7191b" title="National Archives" data-langcode="en" class="embedded-entity"><a href="https://www.archives.gov/">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/field/image-formatter.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable/templates/field/image.html.twig' -->
+<img src="/sites/default/files/2018-04/logo-national-archives.png" alt="National Archives" title="National Archives" typeof="foaf:Image" /><!-- END OUTPUT from 'core/themes/stable/templates/field/image.html.twig' --><!-- END OUTPUT from 'core/themes/stable/templates/field/image-formatter.html.twig' --></a></div>
+
+<!-- END OUTPUT from 'modules/contrib/entity_embed/templates/entity-embed-container.html.twig' -->
+
+<a class="foia" href="https://www.archives.gov/foia" title="Freedom of Information Act">Freedom of Information Act</a>
+
+<ul class="menu-mobile"><li><a href="/about-us/privacy-terms-of-use-accessibility">Privacy, Terms of Use, Accessibility</a></li>
+</ul></div></div>
+      
+<!-- END OUTPUT from 'themes/contrib/cog/templates/field/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--footer-3.html.twig
+   * block--menu-block--footer.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+<nav role="navigation" aria-labelledby="block-footer-3" id="block-footer-3" data-block-plugin-id="menu_block:footer" class="block block-menu navigation block-system-menublock menu--footer">
+      
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   x menu--footer.html.twig
+   * menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--footer.html.twig' -->
+
+
+<nav class="footer-menu">
+                            <ul class="menu level-0">
+                
+                            <div class="top-row">
+                    <div class="learn">
+            
+
+                            <h4><a href="/learn" target="_self" class="heading" data-drupal-link-system-path="node/345056">Learn</a></strong></h4>
+            
+
+                                                        <ul class="menu level-1">
+                
+            
+
+                                                <div class="menu-1">
+                                <h5>About JFK</strong></h5>
+            
+
+                                                        <ul class="menu level-2">
+                
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/life-of-john-f-kennedy" data-drupal-link-system-path="node/4721">Life of John F. Kennedy</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/life-of-jacqueline-b-kennedy" data-drupal-link-system-path="node/4731">Life of Jacqueline B. Kennedy</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/jfk-in-history" data-drupal-link-system-path="node/4521">JFK in History</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/historic-speeches" target="_self" data-drupal-link-system-path="node/486">Historic Speeches</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/the-kennedy-family" data-drupal-link-system-path="node/4526">The Kennedy Family</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/media-galleries" target="_self" data-drupal-link-system-path="node/12496">Media Galleries</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/interactives" target="_self" data-drupal-link-system-path="node/50">Interactives</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/about-jfk/jfkl-from-home" data-drupal-link-system-path="node/366186">JFK Library From Home</a>
+                </li>
+            
+
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+            
+                                                </div>
+                            
+        
+            
+
+                                                <div class="menu-2">
+                                <h5>Education</strong></h5>
+            
+
+                                                        <ul class="menu level-2">
+                
+            
+
+                            <li>
+                    <a href="/learn/education/teachers" target="_self" data-drupal-link-system-path="node/5051">Teachers</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/education/school-visits" target="_self" data-drupal-link-system-path="node/5276">School Visits</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/education/students" target="_self" data-drupal-link-system-path="node/5206">Students</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/education/profile-in-courage-essay-contest" target="_self" data-drupal-link-system-path="node/5211">Profile in Courage Essay Contest</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/education/adults" target="_self" data-drupal-link-system-path="node/5226">Adults</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/learn/education/families" target="_self" data-drupal-link-system-path="node/5236">Families</a>
+                </li>
+            
+
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+            
+                                                </div>
+                            
+                            </ul>
+                    
+            
+
+
+                            </div>
+            
+            
+        
+                            <div class="visit">
+            
+
+                            <h4><a href="/visit-museum" target="_self" class="heading" data-drupal-link-system-path="node/345091">Visit Museum</a></strong></h4>
+            
+
+                                                        <ul class="menu level-1">
+                
+            
+
+                                                <div class="menu-1">
+                                <h5>Visit</strong></h5>
+            
+
+                                                        <ul class="menu level-2">
+                
+            
+
+                            <li>
+                    <a href="/visit-museum/visit/plan-your-trip" target="_self" data-drupal-link-system-path="node/12641">Plan Your Trip</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/visit-museum/visit/walk-in-visitor-programs" target="_self" data-drupal-link-system-path="node/6661">Walk in Visitor Programs</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/visit-museum/visit/museum-calendar" target="_self" rel="" data-drupal-link-system-path="node/90">Museum Calendar</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="https://store.jfklibrary.org/" target="_blank">Museum Store</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/visit-museum/visit/host-an-event" target="_self" data-drupal-link-system-path="node/342196">Host an Event</a>
+                </li>
+            
+
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+            
+                                                </div>
+                            
+        
+            
+
+                                                <div class="menu-2">
+                                <h5>Exhibits</strong></h5>
+            
+
+                                                        <ul class="menu level-2">
+                
+            
+
+                            <li>
+                    <a href="/visit-museum/exhibits/permanent-exhibits" target="_self" data-drupal-link-system-path="node/5336">Permanent Exhibits</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/visit-museum/exhibits/special-exhibits" target="_self" data-drupal-link-system-path="node/5341">Special Exhibits</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/visit-museum/exhibits/past-exhibits" target="_self" data-drupal-link-system-path="node/5346">Past Exhibits</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/visit-museum/exhibits/museum-artifacts" target="_self" data-drupal-link-system-path="node/18201">Museum Artifacts</a>
+                </li>
+            
+
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+            
+                                                </div>
+                            
+                            </ul>
+                    
+            
+
+
+                                </div>
+                </div>
+            
+            
+        
+                            <!-- Begin bottom row navigation -->
+                <div class="bottom-row">
+                    <div class="menus">
+                        <div class="research">
+            
+
+                            <h4><a href="/archives" target="_self" class="heading" data-drupal-link-system-path="node/345281">Archives</a></strong></h4>
+            
+
+                                                        <ul class="menu level-1">
+                
+            
+
+            
+            
+
+                                                        <ul class="menu level-2">
+                
+            
+
+                            <li>
+                    <a href="/archives/about-archival-collections" target="_self" data-drupal-link-system-path="node/6671">About Archival Collections</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/archives/search-collections" target="_self" data-drupal-link-system-path="node/12771">Search Collections</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/archives/plan-a-research-visit" target="_self" data-drupal-link-system-path="node/6691">Plan a Research Visit</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/archives/research-support-services" target="_self" data-drupal-link-system-path="node/17666">Research Support Services</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/archives/other-resources" target="_self" data-drupal-link-system-path="node/17846">Other Resources</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/archives/research-fellowships-grants" target="_self" data-drupal-link-system-path="node/5601">Research Fellowships &amp; Grants</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/archives/ernest-hemingway-collection" target="_self" data-drupal-link-system-path="node/5596">Ernest Hemingway Collection</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="https://jfk.blogs.archives.gov/" target="_self" title="JFK Library Archives Blog: An Inside Look">JFK Library Archives Blog</a>
+                </li>
+            
+
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+                            </div>
+            
+            
+        
+                            <div class="events">
+            
+
+                            <h4><a href="/events-and-awards" target="_self" class="heading" data-drupal-link-system-path="node/345076">Events &amp; Awards</a></strong></h4>
+            
+
+                                                        <ul class="menu level-1">
+                
+            
+
+            
+            
+
+                                                        <ul class="menu level-2">
+                
+            
+
+                            <li>
+                    <a href="/events-and-awards/forums" target="_self" rel="" data-drupal-link-system-path="node/88">Forums</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/events-and-awards/celebrate-family-programming" target="_self" rel="" data-drupal-link-system-path="node/89">Celebrate! Family Programming</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/events-and-awards/profile-in-courage-award" target="_self" rel="" data-drupal-link-system-path="node/62">Profile in Courage Award</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/events-and-awards/new-frontier-award" target="_self" data-drupal-link-system-path="node/342191">New Frontier Award</a>
+                </li>
+            
+
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+                                </div> <!-- / .events -->
+                </div>
+            
+            
+        
+                            <div class="about">
+            
+
+                            <h4><a href="/about-us" target="_self" class="heading" data-drupal-link-system-path="node/345286">About Us</a></strong></h4>
+            
+
+                                                        <ul class="menu level-1">
+                
+            
+
+            
+            
+
+                                                        <ul class="menu level-2">
+                
+            
+
+                            <li>
+                    <a href="/about-us/about-the-jfk-library" target="_self" data-drupal-link-system-path="node/4511">About the JFK Library</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/about-us/jfk-library-foundation" target="_self" data-drupal-link-system-path="node/18136">About the JFK Library Foundation</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/about-us/news-and-press" target="_self" data-drupal-link-system-path="node/5241">News and Press</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/about-us/join-and-support" target="_self" data-drupal-link-system-path="node/18036">Join and Support</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/about-us/jobs-internships-volunteers" target="_self" data-drupal-link-system-path="node/4516">Jobs, Internships &amp; Volunteers</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/about-us/social-media-apps" target="_self" data-drupal-link-system-path="node/4701">Social Media &amp; Apps</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/about-us/contact-us" target="_self" data-drupal-link-system-path="node/4711">Contact Us</a>
+                </li>
+            
+
+            
+
+
+            
+            
+        
+            
+
+                            <li>
+                    <a href="/about-us/privacy-terms-of-use-accessibility" target="_self" data-drupal-link-system-path="node/4716">Privacy, Terms, Accessibility</a>
+                </li>
+            
+
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+            
+            
+                            </ul>
+                    
+            
+
+
+                                </div>
+                </div>
+
+            
+            
+                            <!-- do nothing -->
+                    
+
+
+</nav>
+
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/navigation/menu--footer.html.twig' -->
+
+
+  </nav>
+<!-- END OUTPUT from 'themes/contrib/cog/templates/block/block--system-menu-block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/region.html.twig' -->
+
+
+          </div> <!-- / .container -->
+
+      </footer><!-- /footer -->
+
+
+  
+</div>
+
+<div class="modal" role="dialog">
+    <div class="container">
+        <a class="close-modal" title="Close the modal window" href="javascript: void(0);">Close</a>
+        <div class="modal-content">
+            <i class="fa icon-spinner fa-spin"></i>
+            <div class="embed-container">
+                <div id="ooyalaplayerModal"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal-with-buttons" id="modal" role="dialog" ng-controller="modalController" ng-app="modal">
+    <div class="container">
+        <a class="close-modal" title="Close the modal window" href="javascript: void(0);">Close</a>
+        <a class="modal-prev" title="See previous Image in this set" my-enter="scrollModal($event, -1)" ng-click="scrollModal($event, -1)"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        <a class="modal-next" title="See next Image in this set" my-enter="scrollModal($event, 1)" ng-click="scrollModal($event, 1)"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <div class="modal-content" id="modalContent">
+            <i class="fa icon-spinner fa-spin"></i>
+            <div class="embed-container">
+                <div id="ooyalaplayerModal"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /page -->
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/page.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/themes/stable/templates/content/off-canvas-page-wrapper.html.twig' -->
+
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/13346","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"anchor_link\/drupal.anchor_link,cog\/lib,core\/html5shiv,jfkl\/asset_viewer,jfkl\/fontawesome,jfkl\/fonts,jfkl\/forums,jfkl\/global_styles,jfkl\/historic_speeches,jfkl\/js-header,jfkl\/pica,jfkl\/site_search,jfkl\/twitter_feeds,jfkl\/typekit,search_api_autocomplete\/search_api_autocomplete,system\/base,views\/views.module","theme":"jfkl","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"search_api_autocomplete":{"acquia_search":{"delay":450,"auto_submit":true,"min_length":2}},"ajax":[],"user":{"uid":0,"permissionsHash":"c93833a1b3b36e783cde911d9b0515f36014c24716ec8f10a7e499f34804328c"}}</script>
+<script src="/sites/default/files/js/js_lq7n7qQ3-ki7hwVnDiqSkIG1zuT9ITWzf3F26LNk708.js"></script>
+<script src="/sites/default/files/js/js_bIWZhFYnxqx7-9p-Cq3wrCC7ZYTPKfr4pBxbQhVVj0k.js"></script>
+<script src="/sites/default/files/js/js_wm7KPrWnML1DjXv-Ys6oq3viL4bQfr8aia5HCNh8QX8.js"></script>
+<script src="/themes/custom/jfkl/js/src/brightcove-download.js?v=1.x"></script>
+<script src="/sites/default/files/js/js_h-2jv33ALtAdc71L9dnrYRxGmV61OOF3cjkZHZiD-L8.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"239adb6e7e","applicationID":"73141606","transactionName":"ZFxVMEdXWRcDBRFRV10WdgdBX1gKTRYEX11sWlYHXVM=","queueTime":0,"applicationTime":65,"atts":"SBtWRg9NShk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- END OUTPUT from 'themes/custom/jfkl/templates/layout/html.html.twig' -->
+
