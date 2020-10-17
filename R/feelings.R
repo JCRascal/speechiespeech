@@ -10,5 +10,6 @@ feelings <- function(.data){
   nrc_sent <- tidytext::get_sentiments("nrc")
 
   .data %>%
+    select("word") %>%
     dplyr::inner_join(nrc_sent, by = "word")
 }
