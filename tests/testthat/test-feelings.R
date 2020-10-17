@@ -1,9 +1,12 @@
-test_that("feelings outputs two columns named word and sentiment", {
-  feels <- sample_speech_data[9,] %>%
+test_that("feelings output includes two columns named word and sentiment", {
+  feels <- sample_speech_data %>%
     speech_tokens_dfr() %>%
     feelings()
 
-  expect_equal(ncol(feels) > 2, TRUE)
-  expect_equal(is.null(feels$word), FALSE)
-  expect_equal(is.null(feels$sentiment), FALSE)
+  expect_equal(ncol(feels), 2)
+  expect_equal(names(feels[1]), "word")
+  expect_equal(names(feels[2]), "sentiment")
+
 })
+
+
