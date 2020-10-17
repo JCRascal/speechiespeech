@@ -28,9 +28,9 @@ a single processed text,
 Here I am describing some things.
 }
 \examples{
-url <- spchlist$url[[2]]
+url <- system.file("speeches", "vietnam.txt", package = "speechiespeech")
 slctr <- spchlist$slctr[[2]]
 speechscrape(url, slctr)
 
-speechscrape2(spchlist)
+#speechscrape2(spchlist)
 }

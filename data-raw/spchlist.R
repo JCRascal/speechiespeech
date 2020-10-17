@@ -19,17 +19,17 @@
 #   teachingamericanhistory.org
 #   presidency.ucsb.edu
 
-url <- c(system.file("speeches", "dream.txt", package = "speechiespeech"),
-         system.file("speeches", "vietnam.txt", package = "speechiespeech"),
-         system.file("speeches", "god_marching.txt", package = "speechiespeech"),
-         system.file("speeches", "mountaintop.txt", package = "speechiespeech"),
-         system.file("speeches", "to_the_moon.txt", package = "speechiespeech"),
-         system.file("speeches", "JFK_inaugural.txt", package = "speechiespeech"),
-         system.file("speeches", "city_hill.txt", package = "speechiespeech"),
-         system.file("speeches", "president_press.txt", package = "speechiespeech"),
-         system.file("speeches", "great_society.txt", package = "speechiespeech"),
-         system.file("speeches", "post_JFK_death.txt", package = "speechiespeech"),
-         system.file("speeches", "civil_rights_act.txt", package = "speechiespeech"))
+url <- c("./speeches/dream.txt",
+         "./speeches/vietnam.txt",
+         "./speeches/god_marching.txt",
+         "./speeches/mountaintop.txt",
+         "./speeches/to_the_moon.txt",
+         "./speeches/JFK_inaugural.txt",
+         "./speeches/city_hill.txt",
+         "./speeches/president_press.txt",
+         "./speeches/great_society.txt",
+         "./speeches/post_JFK_death.txt",
+         "./speeches/civil_rights_act.txt")
 
 title <- c("I Have a Dream",
             "Beyond Vietnam",
