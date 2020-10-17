@@ -3,7 +3,7 @@ test_that("feelings outputs two columns named word and sentiment", {
     speech_tokens_dfr() %>%
     feelings()
 
-  expect_equal(ncol(feels), 2)
-  expect_identical(names(feels[1]), "word")
-  expect_identical(names(feels[2]), "sentiment")
+  expect_equal(ncol(feels) > 2, TRUE)
+  expect_equal(is.null(feels$word), FALSE)
+  expect_equal(is.null(feels$sentiment), FALSE)
 })
