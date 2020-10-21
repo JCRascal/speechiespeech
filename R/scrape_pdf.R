@@ -14,6 +14,11 @@ scrape_1 <- function(main_url, page){
     purrr::map(pdftools::pdf_text)
 }
 
+scrape_2 <- function(.data){
+#  .data$text %>%
+
+}
+
 organizer <- function(text){
 
 }
