@@ -7,5 +7,5 @@ test_that("speech_tokens returns the correct number of rows", {
   test <- speech_tokens(text, title, author)
 
 
-  expect_equal(nrow(test), nrow(testtokens))
+  expect_equal(nrow(test), 2094)
 })
