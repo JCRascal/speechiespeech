@@ -54,3 +54,7 @@ speechscrape2 <- function(.data){
 
   mutate(txt_df, "title" = title, "author" = author)
 }
+
+# scrape_pdf <- function(.data){
+#
+# }
