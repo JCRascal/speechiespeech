@@ -41,6 +41,12 @@ scrape_author <- function(.data){
     purrr::map_dfr(stringr::str_to_title)
 }
 
-organizer <- function(text){
+txt_clean <- function(.data){
+  .data %>%
+    tibble::tibble("text" = .) %>%
+    stringr::str_replace_all("-\\r\\n", "") %>%
+    stringr::str_replace_all("\\r\\n", " ")
 
 }
+
+

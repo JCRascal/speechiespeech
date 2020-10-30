@@ -37,7 +37,9 @@ test_that("scrape_author returns a tibble containing accurate author column", {
   expect_identical(tester, expected)
 })
 
-# test_that("scrape_cleaner ")
+test_that("txt_clean removes all escape characters", {
+  expect_equal(stringr::str_detect(txt_clean(test_pdf[[1]][[8]]), "\\r\\n"), FALSE)
+})
 #
 # test_that("organizer correctly splits text by opinion and author", {
 #
