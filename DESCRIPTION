@@ -27,7 +27,8 @@ Imports:
     stopwords,
     purrr,
     rlang,
-    textdata
+    textdata,
+    pdftools
 Depends: 
     R (>= 2.10)
 Suggests: 
