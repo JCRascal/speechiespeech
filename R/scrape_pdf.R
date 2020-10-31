@@ -1,3 +1,15 @@
+scrape_pdf <- function(.data){
+  text_og <- .data %>%
+    tibble::tibble("text" = .)
+
+  text_col <- purrr::map_dfr(text_og, txt_clean)
+  op_type_col <- scrape_optype(text_og)
+  author_col <- scrape_author(text_og)
+
+  tibbleized_pdf <- tibble::tibble(text_col, op_type_col, author_col)
+
+}
+
 # Helpers
 
 # scrape_1 returns a list containing the raw text from all pdfs linked on the
@@ -20,7 +32,7 @@ scrape_1 <- function(main_url, page){
 
 scrape_optype <- function(.data){
   .data %>%
-    tibble::tibble("text" = .) %>%
+    #tibble::tibble("text" = .) %>%
     purrr::map_dfr(stringr::str_trunc, 115) %>%
     mutate(dissenting = stringr::str_detect(text, "dissenting")) %>%
     mutate(per_curiam = stringr::str_detect(text, "Per Curiam")) %>%
@@ -32,7 +44,7 @@ scrape_optype <- function(.data){
 
 scrape_author <- function(.data){
   .data %>%
-    tibble::tibble("text" = .) %>%
+    #tibble::tibble("text" = .) %>%
     purrr::map_dfr(stringr::str_trunc, 115) %>%
     mutate(author = stringr::str_extract(text, ".+(?=, J., dissenting)")) %>%
     mutate(author = if_else(stringr::str_detect(text, "Per Curiam"), true = "Per Curiam", false = author)) %>%
@@ -43,7 +55,7 @@ scrape_author <- function(.data){
 
 txt_clean <- function(.data){
   .data %>%
-    tibble::tibble("text" = .) %>%
+    #tibble::tibble("text" = .) %>%
     stringr::str_replace_all("-\\r\\n", "") %>%
     stringr::str_replace_all("\\r\\n", " ")
 
