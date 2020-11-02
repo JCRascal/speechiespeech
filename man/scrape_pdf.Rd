@@ -6,6 +6,12 @@
 \usage{
 scrape_pdf(.data)
 }
+\arguments{
+\item{.data}{Text vector where each element represents a page from a pdf}
+}
+\value{
+Tibble containing cleaned text, case name, opinion type, and author
+}
 \description{
 Scrape the pages of text from pdfs containing Supreme Court opinions;
 cleans text and organizes relevant metadata
