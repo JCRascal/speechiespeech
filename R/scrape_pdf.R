@@ -3,12 +3,13 @@
 #' Scrape the pages of text from pdfs containing Supreme Court opinions;
 #' cleans text and organizes relevant metadata
 #'
-#' @param .data
+#' @param .data Text vector where each element represents a page from a pdf
+#' @return Tibble containing cleaned text, case name, opinion type, and author
 #' @importFrom pdftools pdf_text
 
 scrape_pdf <- function(.data){
   text_og <- .data %>%
-    tibble::tibble("text" = .)
+    tibble::tibble("text" = .data$.)
 
   text_col <- purrr::map_dfr(text_og, txt_clean)
   op_type_col <- scrape_optype(text_og)
@@ -17,7 +18,8 @@ scrape_pdf <- function(.data){
     stringr::str_extract("(?<=\\s).+(?=\\r\\n)") %>%
     stringr::str_trim()
 
-  tibbleized_pdf <- tibble::tibble(text_col, "case_name" = case_title, op_type_col, author_col)
+  tibbleized_pdf <- tibble::tibble("text" = text_col, "case_name" = case_title,
+                                   "opinion_type" = op_type_col, "author" = author_col)
 
 }
 
@@ -33,7 +35,7 @@ scrape_1 <- function(main_url, page){
     rvest::html_attr("href") %>%
     stringr::str_subset("\\.pdf") %>%
     stringr::str_subset("^((?!publicinfo).)*$") %>%
-    stringr::str_c(main_url, .) %>%
+    stringr::str_c(main_url, .data) %>%
     purrr::map(pdftools::pdf_text)
 }
 
@@ -45,11 +47,11 @@ scrape_optype <- function(.data){
   .data %>%
     #tibble::tibble("text" = .) %>%
     purrr::map_dfr(stringr::str_trunc, 200) %>%
-    mutate(dissenting = stringr::str_detect(text, "dissenting")) %>%
-    mutate(per_curiam = stringr::str_detect(text, "Per Curiam")) %>%
-    mutate(opinion_type = if_else(dissenting == TRUE, true = "Dissenting", false = NA_character_)) %>%
-    mutate(opinion_type = if_else(per_curiam == TRUE, true = "Per Curiam", false = opinion_type)) %>%
-    select(opinion_type)
+    mutate(dissenting = stringr::str_detect(.data$text, "dissenting")) %>%
+    mutate(per_curiam = stringr::str_detect(.data$text, "Per Curiam")) %>%
+    mutate(opinion_type = if_else(.data$dissenting == TRUE, true = "Dissenting", false = NA_character_)) %>%
+    mutate(opinion_type = if_else(.data$per_curiam == TRUE, true = "Per Curiam", false = .data$opinion_type)) %>%
+    select(.data$opinion_type)
 
 }
 
@@ -57,9 +59,9 @@ scrape_author <- function(.data){
   .data %>%
     #tibble::tibble("text" = .) %>%
     purrr::map_dfr(stringr::str_trunc, 200) %>%
-    mutate(author = stringr::str_extract(text, ".+(?=, J., dissenting)")) %>%
-    mutate(author = if_else(stringr::str_detect(text, "Per Curiam"), true = "Per Curiam", false = author)) %>%
-    select(author) %>%
+    mutate(author = stringr::str_extract(.data$text, ".+(?=, J., dissenting)")) %>%
+    mutate(author = if_else(stringr::str_detect(.data$text, "Per Curiam"), true = "Per Curiam", false = .data$author)) %>%
+    select(.data$author) %>%
     purrr::map_dfr(stringr::str_trim) %>%
     purrr::map_dfr(stringr::str_to_title)
 }
