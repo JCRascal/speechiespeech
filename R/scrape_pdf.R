@@ -49,8 +49,10 @@ scrape_optype <- function(.data){
     purrr::map_dfr(stringr::str_trunc, 200) %>%
     mutate(dissenting = stringr::str_detect(.data$text, "dissenting")) %>%
     mutate(per_curiam = stringr::str_detect(.data$text, "Per Curiam")) %>%
+    mutate(majority = stringr::str_detect(.data$text, "Opinion of")) %>%
     mutate(opinion_type = if_else(.data$dissenting == TRUE, true = "Dissenting", false = NA_character_)) %>%
-    mutate(opinion_type = if_else(.data$per_curiam == TRUE, true = "Per Curiam", false = .data$opinion_type)) %>%
+    mutate(opinion_type = if_else(.data$per_curiam == TRUE, true = "Majority", false = .data$opinion_type)) %>%
+    mutate(opinion_type = if_else(.data$majority == TRUE, true = "Majority", false = .data$opinion_type)) %>%
     select(.data$opinion_type)
 
 }
@@ -61,6 +63,7 @@ scrape_author <- function(.data){
     purrr::map_dfr(stringr::str_trunc, 200) %>%
     mutate(author = stringr::str_extract(.data$text, ".+(?=, J., dissenting)")) %>%
     mutate(author = if_else(stringr::str_detect(.data$text, "Per Curiam"), true = "Per Curiam", false = .data$author)) %>%
+    mutate(author = if_else(stringr::str_detect(.data$text, "(?<=Opinion of ).+(?=, J.)"), true = stringr::str_extract(.data$text, "(?<=Opinion of ).+(?=, J.)"), false = .data$author)) %>%
     select(.data$author) %>%
     purrr::map_dfr(stringr::str_trim) %>%
     purrr::map_dfr(stringr::str_to_title)
