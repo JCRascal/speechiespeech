@@ -10,7 +10,7 @@ test_that("scrape_pdf returns a tibble of opinion, case name, opinion type, and 
 
 
 test_that("scrape_optype returns a tibble containing accurate opinion_type column", {
-  expected <- tibble::tibble(opinion_type = c("Per Curiam", "Per Curiam", "Per Curiam", "Dissenting", "Dissenting",
+  expected <- tibble::tibble(opinion_type = c("Majority", "Majority", "Majority", "Dissenting", "Dissenting",
                 "Dissenting", "Dissenting", "Dissenting", "Dissenting", "Dissenting"))
 
   tester <- scrape_optype(tibble::tibble("text" = test_pdf[[1]]))
@@ -26,6 +26,11 @@ test_that("scrape_author returns a tibble containing accurate author column", {
   tester <- scrape_author(tibble::tibble("text" = test_pdf[[1]]))
 
   expect_identical(tester, expected)
+})
+
+test_that("scrape_author correctly identifies author of a majority opinion", {
+  tester <- scrape_author(tibble::tibble("text" = test_pdf[[9]]))
+  expect_identical(tester$author[[9]], "Kavanaugh")
 })
 
 
