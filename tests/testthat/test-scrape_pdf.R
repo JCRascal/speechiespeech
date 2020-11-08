@@ -36,6 +36,10 @@ test_that("scrape_author returns a tibble containing accurate author column", {
   tester <- scrape_author(tibble::tibble("text" = test_pdf[[1]]))
 
   expect_identical(tester, expected)
+
+  tester <- scrape_author(tibble::tibble("text" = test_pdf[[4]]))
+
+  expect_identical(tester$author[[7]], "Roberts")
 })
 
 test_that("scrape_author correctly identifies author of a majority opinion", {
