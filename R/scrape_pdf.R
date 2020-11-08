@@ -18,8 +18,9 @@ scrape_pdf <- function(.data){
     stringr::str_extract("(?<=\\s).+(?=\\r\\n)") %>%
     stringr::str_trim()
 
-  tibbleized_pdf <- tibble::tibble("text" = text_col, "case_name" = case_title,
-                                   "opinion_type" = op_type_col, "author" = author_col)
+  tibbleized_pdf <- tibble::tibble(text_col, "case_name" = case_title,
+                                   op_type_col, author_col) %>%
+    select(-1)
 
 }
 
