@@ -18,8 +18,13 @@ scrape_pdf <- function(.data){
     stringr::str_extract("(?<=\\s).+(?=\\r\\n)") %>%
     stringr::str_trim()
 
-  tibbleized_pdf <- tibble::tibble("text" = text_col, "case_name" = case_title,
-                                   "opinion_type" = op_type_col, "author" = author_col)
+  tibbleized_pdf <- tibble::tibble(text_col, "case_name" = case_title,
+                                   op_type_col, author_col) %>%
+    select(-1)
+
+  tibbleized_pdf$author <- if_else(is.na(tibbleized_pdf$author), true = maj_author(tibbleized_pdf), false = tibbleized_pdf$author) %>%
+    stringr::str_trim()
+  tibbleized_pdf
 
 }
 
@@ -69,10 +74,19 @@ scrape_author <- function(.data){
     mutate(author = if_else(stringr::str_detect(.data$text, ", J., concurring"), true = stringr::str_extract(.data$text, ".+(?=, J., concurring)"),  false = .data$author)) %>%
     mutate(author = if_else(stringr::str_detect(.data$text, "Per Curiam"), true = "Per Curiam", false = .data$author)) %>%
     mutate(author = if_else(stringr::str_detect(.data$text, "Syllabus"), true = "Syllabus", false = .data$author)) %>%
-    mutate(author = if_else(stringr::str_detect(.data$text, "(?<=Opinion of ).+(?=, J.)"), true = stringr::str_extract(.data$text, "(?<=Opinion of ).+(?=, J.)"), false = .data$author)) %>%
+    mutate(author = if_else(stringr::str_detect(.data$text, "(?<=Opinion of ) .+(?=, J.)"), true = stringr::str_extract(.data$text, "(?<=Opinion of ).+(?=, J.)"), false = .data$author)) %>%
     select(.data$author) %>%
     purrr::map_dfr(stringr::str_trim) %>%
     purrr::map_dfr(stringr::str_to_title)
+}
+
+maj_author <- function(.data){
+  auth_na <- .data %>%
+    filter(is.na(author))
+
+  auth_na[[1]][[1]] %>%
+    stringr::str_extract("(?<=JUSTICE).+(?= delivered the opinion of the Court)") %>%
+    stringr::str_to_title()
 }
 
 txt_clean <- function(.data){
