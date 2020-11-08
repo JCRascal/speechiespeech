@@ -10,12 +10,18 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 <!-- badges: end -->
 
 The goal of speechiespeech is to allow a user to easily parse text from
-public websites and perform basic text mining and analysis functions
-including tokenizing a text file, performing and visualizing sentiment
-analysis, and analyzing relative frequency of words across a set of
-source documents. It is meant to be accessible to a beginner R user, and
-as such will focus on developing wrappers for more flexible functions
-and packages from the tidyverse
+public websites with a variety of source types and perform basic text
+mining and analysis functions including tokenizing a text file,
+performing and visualizing sentiment analysis, and analyzing relative
+frequency of words across a set of source documents.
+
+In its current version, speechiespeech supports the parsing of text from
+html pages provided input of an appropriate css selector. Development is
+required to make css selection more user friendly.
+
+Current development efforts focus on parsing of text from pdf source
+files, with publicly accessible Supreme Court slip opinion files
+providing prototype data sources.
 
 ## Installation
 
