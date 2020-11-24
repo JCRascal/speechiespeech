@@ -32,6 +32,8 @@ scrape_pdf <- function(.data){
 
 # scrape_1 returns a list containing the raw text from all pdfs linked on the
 # source page
+
+#' @export
 scrape_1 <- function(main_url, page){
   pages <- xml2::read_html(page)
 
